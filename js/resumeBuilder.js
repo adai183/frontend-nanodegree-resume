@@ -8,7 +8,8 @@ var bio = {
 		"location": "Madrid",
 	},
 	"welcomeMessage": "On my way to become a front end ninja!",
-	"bioPic": "images/biopic.jpg"
+	"bioPic": "images/biopic.jpg",
+	"skills": ["Skill1", "Skill2", "Skill3", "Skill4"]
 };
 
 var work = {};
@@ -63,6 +64,18 @@ $("#topContacts").append(formattedMobile);
 $("#topContacts").append(formattedEmail);
 $("#topContacts").append(formattedGithub);
 $("#topContacts").append(formattedLocation);
+
+if(bio.skills.length > 0) {
+    $("#header").append(HTMLskillsStart);
+    var formattedSkill = HTMLskills.replace("%data%", bio.skills[0]),
+    $("#skills").append(formattedSkill);
+    formattedSkill = HTMLskills.replace("%data%", bio.skills[1]),
+    $("#skills").append(formattedSkill);
+    formattedSkill = HTMLskills.replace("%data%", bio.skills[2]),
+    $("#skills").append(formattedSkill);
+    formattedSkill = HTMLskills.replace("%data%", bio.skills[3]),
+    $("#skills").append(formattedSkill);
+}
 
 
 
