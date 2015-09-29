@@ -1,32 +1,164 @@
 var bio = {
 	"name": "Andreas Daiminger",
-	"role": "Front End Developer",
+	"role": "Front End Developer Apprentice",
 	"contacts": {
 		"mobile": "(+34) 608 379 802",
 		"email": "andreas.daiminger@gmail.com",
 		"github": "@adai183",
+		"twitter": "@ADaiminger",
 		"location": "Madrid",
 	},
 	"welcomeMessage": "On my way to become a front end ninja!",
-	"bioPic": "images/biopic.jpg",
-	"skills": ["Skill1", "Skill2", "Skill3", "Skill4"]
+	"skills": ["Skill1", "Skill2", "Skill3", "Skill4"],
+	"bioPic": "images/biopic.jpg"
 };
+
+bio.display = function(){
+	var formattedName = HTMLheaderName.replace("%data%", bio.name);
+	var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
+	var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
+	var formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
+	var formattedEmail = HTMLemail.replace("%data%", bio.contacts.email);
+	var formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github);
+	var formattedTwitter = HTMLtwitter.replace("%data%", bio.contacts.twitter);
+	var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
+	var formattedWelcomeMsg = HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage);
+
+	$("#header").prepend(formattedRole);
+	$("#header").prepend(formattedName);
+	$("#header").append(formattedBioPic);
+	$("#header").append(formattedWelcomeMsg);
+	$("#topContacts").append(formattedMobile);
+	$("#topContacts").append(formattedEmail);
+	$("#topContacts").append(formattedGithub);
+	$("#topContacts").append(formattedTwitter);
+	$("#topContacts").append(formattedLocation);
+
+	$("#header").append(HTMLskillsStart);
+	var formattedSkill = HTMLskills.replace("%data%", bio.skills[0]);
+	$("#skills").append(formattedSkill);
+	formattedSkill = HTMLskills.replace("%data%", bio.skills[1]);
+	$("#skills").append(formattedSkill);
+	formattedSkill = HTMLskills.replace("%data%", bio.skills[2]);
+	$("#skills").append(formattedSkill);
+	formattedSkill = HTMLskills.replace("%data%", bio.skills[3]);
+	$("#skills").append(formattedSkill);
+
+};
+
+
+
+var education = {
+	"schools": [
+	{
+		"name": "Joseph von Fraunhofer Gymnasium",
+		"location": "Cham, Germany",
+		"degree": "High school",
+		"majors": ["English", "History"],
+		"dates": " from 1998 to 2006"
+	},
+	{
+		"name": "Universität Regensburg",
+		"location": "Regensburg, Germany",
+		"degree": "College",
+		"majors": "English and Spanish Linguistics",
+		"dates": "from 2006 to 2008"
+	},
+	{
+		"name": "Amor de Dios",
+		"location": "Madrid, Spain",
+		"degree": "Dance Academy",
+		"majors": "Flamenco Dance",
+		"dates": "from 2008 to 2014"
+	}],
+	"onlineCourses": [
+
+		{
+			"title": "Introduction to Programming",
+			"school": "Udacity",
+			"dates": "From July to September 2015",
+			"url": "My Degree Notes"
+		}]
+
+};
+
+
+education.display = function(){
+	for (school in education.schools) {
+		$("#education:last").append(HTMLschoolStart);
+
+		var formattedSchoolName = HTMLschoolName.replace("%data%", education.schools[school].name);
+		var formattedSchooolDegree = HTMLschoolDegree.replace("%data%", education.schools[school].degree);
+		var formattedNameDegree = formattedSchoolName + formattedSchooolDegree
+		var formattedSchoolDates = HTMLschoolDates.replace("%data%", education.schools[school].dates);
+		var formattedSchoolLocation = HTMLschoolLocation.replace("%data%", education.schools[school].location);
+		var formattedSchoolMajors = HTMLschoolMajor.replace("%data%", education.schools[school].majors);
+
+		$(".education-entry:last").append(formattedNameDegree);
+		$(".education-entry:last").append(formattedSchoolDates);
+		$(".education-entry:last").append(formattedSchoolLocation);
+		$(".education-entry:last").append(formattedSchoolMajors);
+	};
+
+
+	$("#education").append(HTMLonlineClasses);
+
+	for (onlineCourse in education.onlineCourses) {
+		var formattedonlineTitle = HTMLonlineTitle.replace("%data%", education.onlineCourses[onlineCourse].title);
+		formattedonlineTitle = formattedonlineTitle.replace("#","https://www.udacity.com/");
+		var formattedonlineSchool = HTMLonlineSchool.replace("%data%", education.onlineCourses[onlineCourse].school);
+		var formattedonlineTitleSchool = formattedonlineTitle + formattedonlineSchool;
+		var formattedonlineDates = HTMLonlineDates.replace("%data%", education.onlineCourses[onlineCourse].dates);
+		var formattedonlineURL = HTMLonlineURL.replace("%data%", education.onlineCourses[onlineCourse].url);
+		formattedonlineURL = formattedonlineURL.replace("#", "http://kinetic-silicon-104012.appspot.com/");
+
+		$(".online-entry:last").append(formattedonlineTitleSchool);
+		$(".online-entry:last").append(formattedonlineDates);
+		$(".online-entry:last").append(formattedonlineURL);
+	}
+};
+
+
+
+
+
 
 var work =  {
 	"jobs": [
 	{
 		"title": "Flamenco Dancer",
 		"employer": "Amor de Dios",
+		"location": "Madrid",
 		"dates": "2010 - 2015",
 		"description": "Training and teaching at renown Flamenco school Amor de Dios"
 	},
 	{
 		"title": "Cultural Manager",
 		"employer": "Compania Curro de Candela",
+		"location": "Madrid",
 		"dates": "2015",
 		"description": "Solving day to day problems in a big Flamenco Production"
 	}]
 };
+
+work.display = function(){
+	for (job in work.jobs) {
+		$("#workExperience").append(HTMLworkStart);
+
+		var formattedEmployer = HTMLworkEmployer.replace("%data%", work.jobs[job].employer);
+		var formattedTitle = HTMLworkTitle.replace("%data%", work.jobs[job].title);
+		var formattedEmployerTitle = formattedEmployer + formattedTitle;
+		$(".work-entry:last").append(formattedEmployerTitle);
+		var formattedDates = HTMLworkDates.replace("%data%", work.jobs[job].dates);
+		$(".work-entry:last").append(formattedDates);
+		var formattedLocation = HTMLworkLocation.replace("%data%", work.jobs[job].location);
+		$(".work-entry:last").append(formattedLocation);
+		var formattedDescription = HTMLworkDescription.replace("%data%", work.jobs[job].description);
+		$(".work-entry:last").append(formattedDescription);
+	}
+};
+
+
 
 
 
@@ -48,92 +180,6 @@ var projects = {
 
 	}
 ]};
-
-var education = {
-	"schools": [
-	{
-		"name": "Joseph von Fraunhofer Gymnasium",
-		"city": "Cham",
-		"majors": ["English", "History"],
-		"graduationYear": "2006"
-	},
-	{
-		"name": "Amor de Dios",
-		"city": "Madrid",
-		"majors": "Flamenco Dance",
-		"graduationYear": "2014"
-	}],
-	"onlineCourses": {
-		"name": "Udacity",
-		"degree": "Introduction to Programming",
-		"graduationDate": "September 2015"
-	}
-
-};
-
-
-
-var formattedName = HTMLheaderName.replace("%data%", bio.name);
-var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
-var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
-var formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
-var formattedEmail = HTMLemail.replace("%data%", bio.contacts.email);
-var formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github);
-var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
-var formattedWelcomeMsg = HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage);
-
-function inName(name) {
-    name = name.trim().split(" ");
-    console.log(name);
-    name[1] = name[1].toUpperCase();
-    name[0] = name[0].slice(0,1).toUpperCase() + name[0].slice(1).toLowerCase();
-    return name[0] + " " + name[1];
-};
-
-$("#main").append(internationalizeButton)
-
-
-
-$("#header").prepend(formattedRole);
-$("#header").prepend(formattedName);
-$("#header").append(formattedBioPic);
-$("#header").append(formattedWelcomeMsg);
-$("#topContacts").append(formattedMobile);
-$("#topContacts").append(formattedEmail);
-$("#topContacts").append(formattedGithub);
-$("#topContacts").append(formattedLocation);
-$("#mapDiv").append(googleMap);
-
-
-if(bio.skills.length > 0) {
-	 $("#header").append(HTMLskillsStart);
-	 var formattedSkill = HTMLskills.replace("%data%", bio.skills[0]);
-	 $("#skills").append(formattedSkill);
-	 formattedSkill = HTMLskills.replace("%data%", bio.skills[1]);
-	 $("#skills").append(formattedSkill);
-	 formattedSkill = HTMLskills.replace("%data%", bio.skills[2]);
-	 $("#skills").append(formattedSkill);
-	 formattedSkill = HTMLskills.replace("%data%", bio.skills[3]);
-	 $("#skills").append(formattedSkill);
-	}
-
-function displayWork(){
-	for (job in work.jobs) {
-		$("#workExperience").append(HTMLworkStart);
-
-		var formattedEmployer = HTMLworkEmployer.replace("%data%", work.jobs[job].employer);
-		var formattedTitle = HTMLworkTitle.replace("%data%", work.jobs[job].title);
-		var formattedEmployerTitle = formattedEmployer + formattedTitle;
-		$(".work-entry:last").append(formattedEmployerTitle);
-		var formattedDates = HTMLworkDates.replace("%data%", work.jobs[job].dates);
-		$(".work-entry:last").append(formattedDates);
-		var formattedDescription = HTMLworkDescription.replace("%data%", work.jobs[job].description);
-		$(".work-entry:last").append(formattedDescription);
-
-	}
-};
-
-displayWork();
 
 projects.display = function(){
 	for (project in projects.projects){
@@ -159,13 +205,34 @@ projects.display = function(){
 };
 
 
+
+
+
+bio.display();
+education.display();
+work.display();
 projects.display();
 
-$(document).click(function(loc) {
-  var x = loc.pageX;
-  var y = loc.pageY;
-  logClicks(x,y);
-});
+
+
+
+
+function inName(name) {
+    name = name.trim().split(" ");
+    console.log(name);
+    name[1] = name[1].toUpperCase();
+    name[0] = name[0].slice(0,1).toUpperCase() + name[0].slice(1).toLowerCase();
+    return name[0] + " " + name[1];
+};
+
+$("#main").append(internationalizeButton)
+
+
+$("#mapDiv").append(googleMap);
+
+
+
+
 
 
 
