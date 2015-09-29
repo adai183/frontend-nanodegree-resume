@@ -1,0 +1,1946 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'grunt-responsive-images',
+1 verbose cli   '--save',
+1 verbose cli   'dev' ]
+2 info using npm@2.14.4
+3 info using node@v4.1.1
+4 verbose install initial load of /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/package.json
+5 verbose installManyTop reading scoped package data from /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt/package.json
+6 verbose installManyTop reading scoped package data from /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-contrib-imagemin/package.json
+7 info package.json grunt@0.4.5 No license field.
+8 info package.json grunt-contrib-imagemin@0.9.4 No license field.
+9 verbose readDependencies loading dependencies from /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/package.json
+10 silly cache add args [ 'grunt-responsive-images', null ]
+11 verbose cache add spec grunt-responsive-images
+12 silly cache add args [ 'dev', null ]
+13 verbose cache add spec dev
+14 silly cache add parsed spec Result {
+14 silly cache add   raw: 'grunt-responsive-images',
+14 silly cache add   scope: null,
+14 silly cache add   name: 'grunt-responsive-images',
+14 silly cache add   rawSpec: '',
+14 silly cache add   spec: '*',
+14 silly cache add   type: 'range' }
+15 silly addNamed grunt-responsive-images@*
+16 verbose addNamed "*" is a valid semver range for grunt-responsive-images
+17 silly addNameRange { name: 'grunt-responsive-images', range: '*', hasData: false }
+18 silly mapToRegistry name grunt-responsive-images
+19 silly mapToRegistry using default registry
+20 silly mapToRegistry registry https://registry.npmjs.org/
+21 silly mapToRegistry uri https://registry.npmjs.org/grunt-responsive-images
+22 verbose addNameRange registry:https://registry.npmjs.org/grunt-responsive-images not in flight; fetching
+23 silly cache add parsed spec Result {
+23 silly cache add   raw: 'dev',
+23 silly cache add   scope: null,
+23 silly cache add   name: 'dev',
+23 silly cache add   rawSpec: '',
+23 silly cache add   spec: '*',
+23 silly cache add   type: 'range' }
+24 silly addNamed dev@*
+25 verbose addNamed "*" is a valid semver range for dev
+26 silly addNameRange { name: 'dev', range: '*', hasData: false }
+27 silly mapToRegistry name dev
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry uri https://registry.npmjs.org/dev
+31 verbose addNameRange registry:https://registry.npmjs.org/dev not in flight; fetching
+32 verbose request uri https://registry.npmjs.org/dev
+33 verbose request no auth needed
+34 info attempt registry request try #1 at 14:24:17
+35 verbose request id fe269d8dc962e704
+36 verbose etag "6FAQ717WLWEEHPRF40N2OPADI"
+37 http request GET https://registry.npmjs.org/dev
+38 verbose request uri https://registry.npmjs.org/grunt-responsive-images
+39 verbose request no auth needed
+40 info attempt registry request try #1 at 14:24:17
+41 verbose etag "B5O3908Q96UHHOVW5UMSXYEPU"
+42 http request GET https://registry.npmjs.org/grunt-responsive-images
+43 http 304 https://registry.npmjs.org/dev
+44 silly get cb [ 304,
+44 silly get   { date: 'Mon, 28 Sep 2015 12:24:18 GMT',
+44 silly get     via: '1.1 varnish',
+44 silly get     'cache-control': 'max-age=60',
+44 silly get     etag: '"6FAQ717WLWEEHPRF40N2OPADI"',
+44 silly get     age: '0',
+44 silly get     connection: 'keep-alive',
+44 silly get     'x-served-by': 'cache-lhr6335-LHR',
+44 silly get     'x-cache': 'MISS',
+44 silly get     'x-cache-hits': '0',
+44 silly get     'x-timer': 'S1443443058.062755,VS0,VE98',
+44 silly get     vary: 'Accept' } ]
+45 verbose etag https://registry.npmjs.org/dev from cache
+46 verbose get saving dev to /Users/andreas/.npm/registry.npmjs.org/dev/.cache.json
+47 silly addNameRange number 2 { name: 'dev', range: '*', hasData: true }
+48 silly addNameRange versions [ 'dev',
+48 silly addNameRange   [ '0.1.0',
+48 silly addNameRange     '0.1.1',
+48 silly addNameRange     '0.1.2',
+48 silly addNameRange     '0.1.3',
+48 silly addNameRange     '0.1.1-d',
+48 silly addNameRange     '0.1.1-e',
+48 silly addNameRange     '0.1.1-f',
+48 silly addNameRange     '0.1.1-g',
+48 silly addNameRange     '0.1.1-h',
+48 silly addNameRange     '0.1.1-n',
+48 silly addNameRange     '0.1.1-p' ] ]
+49 silly addNamed dev@0.1.3
+50 verbose addNamed "0.1.3" is a plain semver version for dev
+51 silly cache afterAdd dev@0.1.3
+52 verbose afterAdd /Users/andreas/.npm/dev/0.1.3/package/package.json not in flight; writing
+53 verbose afterAdd /Users/andreas/.npm/dev/0.1.3/package/package.json written
+54 http 304 https://registry.npmjs.org/grunt-responsive-images
+55 silly get cb [ 304,
+55 silly get   { date: 'Mon, 28 Sep 2015 12:24:18 GMT',
+55 silly get     via: '1.1 varnish',
+55 silly get     'cache-control': 'max-age=60',
+55 silly get     etag: '"B5O3908Q96UHHOVW5UMSXYEPU"',
+55 silly get     age: '0',
+55 silly get     connection: 'keep-alive',
+55 silly get     'x-served-by': 'cache-lhr6325-LHR',
+55 silly get     'x-cache': 'MISS',
+55 silly get     'x-cache-hits': '0',
+55 silly get     'x-timer': 'S1443443058.057782,VS0,VE319',
+55 silly get     vary: 'Accept' } ]
+56 verbose etag https://registry.npmjs.org/grunt-responsive-images from cache
+57 verbose get saving grunt-responsive-images to /Users/andreas/.npm/registry.npmjs.org/grunt-responsive-images/.cache.json
+58 silly addNameRange number 2 { name: 'grunt-responsive-images', range: '*', hasData: true }
+59 silly addNameRange versions [ 'grunt-responsive-images',
+59 silly addNameRange   [ '0.0.1',
+59 silly addNameRange     '0.0.2',
+59 silly addNameRange     '0.0.3',
+59 silly addNameRange     '0.0.4',
+59 silly addNameRange     '0.0.5',
+59 silly addNameRange     '0.0.6',
+59 silly addNameRange     '0.0.7',
+59 silly addNameRange     '0.1.0',
+59 silly addNameRange     '0.1.1',
+59 silly addNameRange     '0.1.2',
+59 silly addNameRange     '0.1.3',
+59 silly addNameRange     '0.1.4',
+59 silly addNameRange     '0.1.5',
+59 silly addNameRange     '0.1.6' ] ]
+60 silly addNamed grunt-responsive-images@0.1.6
+61 verbose addNamed "0.1.6" is a plain semver version for grunt-responsive-images
+62 silly cache afterAdd grunt-responsive-images@0.1.6
+63 verbose afterAdd /Users/andreas/.npm/grunt-responsive-images/0.1.6/package/package.json not in flight; writing
+64 verbose afterAdd /Users/andreas/.npm/grunt-responsive-images/0.1.6/package/package.json written
+65 silly install resolved [ { name: 'dev',
+65 silly install resolved     description: 'Reruns the given file whenever the current working dir subtree has modifications.',
+65 silly install resolved     version: '0.1.3',
+65 silly install resolved     repository: { type: 'git', url: 'git://github.com/iliakan/node-dev.git' },
+65 silly install resolved     author:
+65 silly install resolved      { name: 'Ilya Kantor',
+65 silly install resolved        email: 'iliakan@gmail.com',
+65 silly install resolved        url: 'http://javascript.info/' },
+65 silly install resolved     preferGlobal: true,
+65 silly install resolved     bin: { 'node-dev': './node-dev.sh' },
+65 silly install resolved     dependencies: { inotify: '>= 0.1.6' },
+65 silly install resolved     devDependencies: {},
+65 silly install resolved     _id: 'dev@0.1.3',
+65 silly install resolved     engines: { node: '*' },
+65 silly install resolved     _engineSupported: true,
+65 silly install resolved     _npmVersion: '1.0.6',
+65 silly install resolved     _nodeVersion: 'v0.5.0-pre',
+65 silly install resolved     _defaultsLoaded: true,
+65 silly install resolved     dist:
+65 silly install resolved      { shasum: '89fdc08705e0e7eaef92d012e26751e4d744322a',
+65 silly install resolved        tarball: 'http://registry.npmjs.org/dev/-/dev-0.1.3.tgz' },
+65 silly install resolved     scripts: {},
+65 silly install resolved     directories: {},
+65 silly install resolved     _shasum: '89fdc08705e0e7eaef92d012e26751e4d744322a',
+65 silly install resolved     _resolved: 'https://registry.npmjs.org/dev/-/dev-0.1.3.tgz',
+65 silly install resolved     _from: 'dev@*',
+65 silly install resolved     bugs: { url: 'https://github.com/iliakan/node-dev/issues' },
+65 silly install resolved     readme: 'ERROR: No README data found!',
+65 silly install resolved     homepage: 'https://github.com/iliakan/node-dev#readme' },
+65 silly install resolved   { name: 'grunt-responsive-images',
+65 silly install resolved     description: 'Produce images at different sizes for responsive websites.',
+65 silly install resolved     version: '0.1.6',
+65 silly install resolved     homepage: 'https://github.com/andismith/grunt-responsive-images',
+65 silly install resolved     author:
+65 silly install resolved      { name: 'andismith',
+65 silly install resolved        email: 'andi.smith.uk@gmail.com',
+65 silly install resolved        url: 'http://www.andismith.com' },
+65 silly install resolved     repository:
+65 silly install resolved      { type: 'git',
+65 silly install resolved        url: 'git://github.com/andismith/grunt-responsive-images.git' },
+65 silly install resolved     bugs: { url: 'https://github.com/andismith/grunt-responsive-images/issues' },
+65 silly install resolved     licenses: [ [Object] ],
+65 silly install resolved     main: 'Gruntfile.js',
+65 silly install resolved     engines: { node: '>= 0.8.0' },
+65 silly install resolved     scripts: { test: 'grunt test' },
+65 silly install resolved     dependencies:
+65 silly install resolved      { async: '~0.2.8',
+65 silly install resolved        gm: '~1.14.2',
+65 silly install resolved        grunt: '~0.4.1',
+65 silly install resolved        lodash: '~1.0.0',
+65 silly install resolved        'node-imagemagick': '~0.1.8' },
+65 silly install resolved     devDependencies:
+65 silly install resolved      { 'grunt-contrib-jshint': '~0.6.0',
+65 silly install resolved        'grunt-contrib-clean': '~0.4.0',
+65 silly install resolved        'grunt-contrib-nodeunit': '~0.2.0',
+65 silly install resolved        q: '~0.9.7' },
+65 silly install resolved     keywords:
+65 silly install resolved      [ 'grunt',
+65 silly install resolved        'gruntplugin',
+65 silly install resolved        'img',
+65 silly install resolved        'image',
+65 silly install resolved        'images',
+65 silly install resolved        'picturefill',
+65 silly install resolved        'responsive',
+65 silly install resolved        'responsivedesign',
+65 silly install resolved        'srcset',
+65 silly install resolved        'imagemagick',
+65 silly install resolved        'graphicsmagick' ],
+65 silly install resolved     gitHead: '397a604bb831f13ad6c7b57afb8af02a2f4ec11b',
+65 silly install resolved     _id: 'grunt-responsive-images@0.1.6',
+65 silly install resolved     _shasum: '95d3a812e74d8d2893ced99ed11b87b841cc4780',
+65 silly install resolved     _from: 'grunt-responsive-images@*',
+65 silly install resolved     _npmVersion: '1.4.28',
+65 silly install resolved     _npmUser: { name: 'andismith', email: 'andi.smith.uk+npm@gmail.com' },
+65 silly install resolved     maintainers: [ [Object] ],
+65 silly install resolved     dist:
+65 silly install resolved      { shasum: '95d3a812e74d8d2893ced99ed11b87b841cc4780',
+65 silly install resolved        tarball: 'http://registry.npmjs.org/grunt-responsive-images/-/grunt-responsive-images-0.1.6.tgz' },
+65 silly install resolved     directories: {},
+65 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-responsive-images/-/grunt-responsive-images-0.1.6.tgz',
+65 silly install resolved     readme: 'ERROR: No README data found!' } ]
+66 info install dev@0.1.3 into /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume
+67 info install grunt-responsive-images@0.1.6 into /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume
+68 info installOne dev@0.1.3
+69 verbose installOne of dev to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume not in flight; installing
+70 info installOne grunt-responsive-images@0.1.6
+71 verbose installOne of grunt-responsive-images to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume not in flight; installing
+72 verbose lock using /Users/andreas/.npm/_locks/dev-9d6de69dcad0c10d.lock for /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev
+73 verbose lock using /Users/andreas/.npm/_locks/grunt-responsive-images-d5526e83a5f8abd6.lock for /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images
+74 silly install write writing dev 0.1.3 to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev
+75 silly install write writing grunt-responsive-images 0.1.6 to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images
+76 verbose unbuild node_modules/dev
+77 verbose unbuild node_modules/grunt-responsive-images
+78 silly gentlyRm /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev is being purged from base /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume
+79 verbose gentlyRm don't care about contents; nuking /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev
+80 silly gentlyRm /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images is being purged from base /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume
+81 verbose gentlyRm don't care about contents; nuking /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images
+82 verbose tar unpack /Users/andreas/.npm/dev/0.1.3/package.tgz
+83 verbose tar unpacking to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev
+84 silly gentlyRm /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev is being purged
+85 verbose gentlyRm don't care about contents; nuking /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev
+86 verbose tar unpack /Users/andreas/.npm/grunt-responsive-images/0.1.6/package.tgz
+87 verbose tar unpacking to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images
+88 silly gentlyRm /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images is being purged
+89 verbose gentlyRm don't care about contents; nuking /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images
+90 silly gunzTarPerm modes [ '755', '644' ]
+91 silly gunzTarPerm modes [ '755', '644' ]
+92 silly gunzTarPerm extractEntry index.js
+93 silly gunzTarPerm extractEntry .npmignore
+94 silly gunzTarPerm extractEntry readme.md
+95 silly gunzTarPerm extractEntry package.json
+96 silly gunzTarPerm extractEntry .npmignore
+97 silly gunzTarPerm extractEntry README.md
+98 silly gunzTarPerm extractEntry package.json
+99 silly gunzTarPerm extractEntry node-dev.sh
+100 silly gunzTarPerm extractEntry Gruntfile.js
+101 silly gunzTarPerm extractEntry manager.js
+102 silly gunzTarPerm extractEntry LICENSE-MIT
+103 silly gunzTarPerm extractEntry tasks/responsive_images.js
+104 verbose write writing to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/package.json
+105 verbose write writing to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/package.json
+106 info preinstall dev@0.1.3
+107 verbose readDependencies loading dependencies from /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/package.json
+108 info preinstall grunt-responsive-images@0.1.6
+109 verbose readDependencies loading dependencies from /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/package.json
+110 silly prepareForInstallMany adding inotify@>= 0.1.6 from dev dependencies
+111 verbose readDependencies loading dependencies from /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/package.json
+112 silly prepareForInstallMany adding async@~0.2.8 from grunt-responsive-images dependencies
+113 silly prepareForInstallMany adding gm@~1.14.2 from grunt-responsive-images dependencies
+114 silly prepareForInstallMany adding lodash@~1.0.0 from grunt-responsive-images dependencies
+115 silly prepareForInstallMany adding node-imagemagick@~0.1.8 from grunt-responsive-images dependencies
+116 verbose readDependencies loading dependencies from /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/package.json
+117 silly cache add args [ 'inotify@>= 0.1.6', null ]
+118 verbose cache add spec inotify@>= 0.1.6
+119 silly cache add args [ 'async@~0.2.8', null ]
+120 verbose cache add spec async@~0.2.8
+121 silly cache add args [ 'gm@~1.14.2', null ]
+122 verbose cache add spec gm@~1.14.2
+123 silly cache add parsed spec Result {
+123 silly cache add   raw: 'inotify@>= 0.1.6',
+123 silly cache add   scope: null,
+123 silly cache add   name: 'inotify',
+123 silly cache add   rawSpec: '>= 0.1.6',
+123 silly cache add   spec: '>=0.1.6',
+123 silly cache add   type: 'range' }
+124 silly addNamed inotify@>=0.1.6
+125 verbose addNamed ">=0.1.6" is a valid semver range for inotify
+126 silly addNameRange { name: 'inotify', range: '>=0.1.6', hasData: false }
+127 silly mapToRegistry name inotify
+128 silly mapToRegistry using default registry
+129 silly mapToRegistry registry https://registry.npmjs.org/
+130 silly mapToRegistry uri https://registry.npmjs.org/inotify
+131 verbose addNameRange registry:https://registry.npmjs.org/inotify not in flight; fetching
+132 silly cache add parsed spec Result {
+132 silly cache add   raw: 'async@~0.2.8',
+132 silly cache add   scope: null,
+132 silly cache add   name: 'async',
+132 silly cache add   rawSpec: '~0.2.8',
+132 silly cache add   spec: '>=0.2.8 <0.3.0',
+132 silly cache add   type: 'range' }
+133 silly addNamed async@>=0.2.8 <0.3.0
+134 verbose addNamed ">=0.2.8 <0.3.0" is a valid semver range for async
+135 silly addNameRange { name: 'async', range: '>=0.2.8 <0.3.0', hasData: false }
+136 silly mapToRegistry name async
+137 silly mapToRegistry using default registry
+138 silly mapToRegistry registry https://registry.npmjs.org/
+139 silly mapToRegistry uri https://registry.npmjs.org/async
+140 verbose addNameRange registry:https://registry.npmjs.org/async not in flight; fetching
+141 silly cache add parsed spec Result {
+141 silly cache add   raw: 'gm@~1.14.2',
+141 silly cache add   scope: null,
+141 silly cache add   name: 'gm',
+141 silly cache add   rawSpec: '~1.14.2',
+141 silly cache add   spec: '>=1.14.2 <1.15.0',
+141 silly cache add   type: 'range' }
+142 silly addNamed gm@>=1.14.2 <1.15.0
+143 verbose addNamed ">=1.14.2 <1.15.0" is a valid semver range for gm
+144 silly addNameRange { name: 'gm', range: '>=1.14.2 <1.15.0', hasData: false }
+145 silly mapToRegistry name gm
+146 silly mapToRegistry using default registry
+147 silly mapToRegistry registry https://registry.npmjs.org/
+148 silly mapToRegistry uri https://registry.npmjs.org/gm
+149 verbose addNameRange registry:https://registry.npmjs.org/gm not in flight; fetching
+150 silly cache add args [ 'lodash@~1.0.0', null ]
+151 verbose cache add spec lodash@~1.0.0
+152 silly cache add parsed spec Result {
+152 silly cache add   raw: 'lodash@~1.0.0',
+152 silly cache add   scope: null,
+152 silly cache add   name: 'lodash',
+152 silly cache add   rawSpec: '~1.0.0',
+152 silly cache add   spec: '>=1.0.0 <1.1.0',
+152 silly cache add   type: 'range' }
+153 silly addNamed lodash@>=1.0.0 <1.1.0
+154 verbose addNamed ">=1.0.0 <1.1.0" is a valid semver range for lodash
+155 silly addNameRange { name: 'lodash', range: '>=1.0.0 <1.1.0', hasData: false }
+156 silly mapToRegistry name lodash
+157 silly mapToRegistry using default registry
+158 silly mapToRegistry registry https://registry.npmjs.org/
+159 silly mapToRegistry uri https://registry.npmjs.org/lodash
+160 verbose addNameRange registry:https://registry.npmjs.org/lodash not in flight; fetching
+161 silly cache add args [ 'node-imagemagick@~0.1.8', null ]
+162 verbose cache add spec node-imagemagick@~0.1.8
+163 silly cache add parsed spec Result {
+163 silly cache add   raw: 'node-imagemagick@~0.1.8',
+163 silly cache add   scope: null,
+163 silly cache add   name: 'node-imagemagick',
+163 silly cache add   rawSpec: '~0.1.8',
+163 silly cache add   spec: '>=0.1.8 <0.2.0',
+163 silly cache add   type: 'range' }
+164 silly addNamed node-imagemagick@>=0.1.8 <0.2.0
+165 verbose addNamed ">=0.1.8 <0.2.0" is a valid semver range for node-imagemagick
+166 silly addNameRange { name: 'node-imagemagick',
+166 silly addNameRange   range: '>=0.1.8 <0.2.0',
+166 silly addNameRange   hasData: false }
+167 silly mapToRegistry name node-imagemagick
+168 silly mapToRegistry using default registry
+169 silly mapToRegistry registry https://registry.npmjs.org/
+170 silly mapToRegistry uri https://registry.npmjs.org/node-imagemagick
+171 verbose addNameRange registry:https://registry.npmjs.org/node-imagemagick not in flight; fetching
+172 verbose request uri https://registry.npmjs.org/async
+173 verbose request no auth needed
+174 info attempt registry request try #1 at 14:24:18
+175 verbose etag "E42J8FBOJ1EHY87PZD0RNRZM5"
+176 http request GET https://registry.npmjs.org/async
+177 verbose request uri https://registry.npmjs.org/inotify
+178 verbose request no auth needed
+179 info attempt registry request try #1 at 14:24:18
+180 verbose etag "4ZY5A5WQTFKRIA2LNLBYWNNEV"
+181 http request GET https://registry.npmjs.org/inotify
+182 verbose request uri https://registry.npmjs.org/lodash
+183 verbose request no auth needed
+184 info attempt registry request try #1 at 14:24:18
+185 verbose etag "UX7EL679X0HS9KZRZN4K85NK"
+186 http request GET https://registry.npmjs.org/lodash
+187 verbose request uri https://registry.npmjs.org/gm
+188 verbose request no auth needed
+189 info attempt registry request try #1 at 14:24:18
+190 verbose etag "8T59ODL3SNJB16OJAM8P7CR27"
+191 http request GET https://registry.npmjs.org/gm
+192 verbose request uri https://registry.npmjs.org/node-imagemagick
+193 verbose request no auth needed
+194 info attempt registry request try #1 at 14:24:18
+195 verbose etag "3WAG4043YLN586W8IA6VBOMN4"
+196 http request GET https://registry.npmjs.org/node-imagemagick
+197 http 304 https://registry.npmjs.org/async
+198 silly get cb [ 304,
+198 silly get   { date: 'Mon, 28 Sep 2015 12:24:18 GMT',
+198 silly get     via: '1.1 varnish',
+198 silly get     'cache-control': 'max-age=60',
+198 silly get     etag: '"E42J8FBOJ1EHY87PZD0RNRZM5"',
+198 silly get     age: '25',
+198 silly get     connection: 'keep-alive',
+198 silly get     'x-served-by': 'cache-lhr6322-LHR',
+198 silly get     'x-cache': 'HIT',
+198 silly get     'x-cache-hits': '3',
+198 silly get     'x-timer': 'S1443443058.644636,VS0,VE0',
+198 silly get     vary: 'Accept' } ]
+199 verbose etag https://registry.npmjs.org/async from cache
+200 verbose get saving async to /Users/andreas/.npm/registry.npmjs.org/async/.cache.json
+201 silly addNameRange number 2 { name: 'async', range: '>=0.2.8 <0.3.0', hasData: true }
+202 silly addNameRange versions [ 'async',
+202 silly addNameRange   [ '0.1.0',
+202 silly addNameRange     '0.1.1',
+202 silly addNameRange     '0.1.2',
+202 silly addNameRange     '0.1.3',
+202 silly addNameRange     '0.1.4',
+202 silly addNameRange     '0.1.5',
+202 silly addNameRange     '0.1.6',
+202 silly addNameRange     '0.1.7',
+202 silly addNameRange     '0.1.8',
+202 silly addNameRange     '0.1.9',
+202 silly addNameRange     '0.1.10',
+202 silly addNameRange     '0.1.11',
+202 silly addNameRange     '0.1.12',
+202 silly addNameRange     '0.1.13',
+202 silly addNameRange     '0.1.14',
+202 silly addNameRange     '0.1.15',
+202 silly addNameRange     '0.1.16',
+202 silly addNameRange     '0.1.17',
+202 silly addNameRange     '0.1.18',
+202 silly addNameRange     '0.1.19',
+202 silly addNameRange     '0.1.20',
+202 silly addNameRange     '0.1.21',
+202 silly addNameRange     '0.1.22',
+202 silly addNameRange     '0.2.0',
+202 silly addNameRange     '0.2.1',
+202 silly addNameRange     '0.2.2',
+202 silly addNameRange     '0.2.3',
+202 silly addNameRange     '0.2.4',
+202 silly addNameRange     '0.2.5',
+202 silly addNameRange     '0.2.6',
+202 silly addNameRange     '0.2.7',
+202 silly addNameRange     '0.2.8',
+202 silly addNameRange     '0.2.9',
+202 silly addNameRange     '0.2.10',
+202 silly addNameRange     '0.3.0',
+202 silly addNameRange     '0.4.0',
+202 silly addNameRange     '0.4.1',
+202 silly addNameRange     '0.5.0',
+202 silly addNameRange     '0.6.0',
+202 silly addNameRange     '0.6.1',
+202 silly addNameRange     '0.6.2',
+202 silly addNameRange     '0.7.0',
+202 silly addNameRange     '0.8.0',
+202 silly addNameRange     '0.9.0',
+202 silly addNameRange     '0.9.2',
+202 silly addNameRange     '1.0.0',
+202 silly addNameRange     '1.1.0',
+202 silly addNameRange     '1.2.0',
+202 silly addNameRange     '1.1.1',
+202 silly addNameRange     '1.2.1',
+202 silly addNameRange     '1.3.0',
+202 silly addNameRange     '1.4.0',
+202 silly addNameRange     '1.4.1',
+202 silly addNameRange     '1.4.2' ] ]
+203 silly addNamed async@0.2.10
+204 verbose addNamed "0.2.10" is a plain semver version for async
+205 http 304 https://registry.npmjs.org/lodash
+206 silly get cb [ 304,
+206 silly get   { date: 'Mon, 28 Sep 2015 12:24:18 GMT',
+206 silly get     via: '1.1 varnish',
+206 silly get     'cache-control': 'max-age=60',
+206 silly get     etag: '"UX7EL679X0HS9KZRZN4K85NK"',
+206 silly get     age: '43',
+206 silly get     connection: 'keep-alive',
+206 silly get     'x-served-by': 'cache-lhr6335-LHR',
+206 silly get     'x-cache': 'HIT',
+206 silly get     'x-cache-hits': '4',
+206 silly get     'x-timer': 'S1443443058.654125,VS0,VE0',
+206 silly get     vary: 'Accept' } ]
+207 verbose etag https://registry.npmjs.org/lodash from cache
+208 verbose get saving lodash to /Users/andreas/.npm/registry.npmjs.org/lodash/.cache.json
+209 silly cache afterAdd async@0.2.10
+210 verbose afterAdd /Users/andreas/.npm/async/0.2.10/package/package.json not in flight; writing
+211 silly addNameRange number 2 { name: 'lodash', range: '>=1.0.0 <1.1.0', hasData: true }
+212 silly addNameRange versions [ 'lodash',
+212 silly addNameRange   [ '0.1.0',
+212 silly addNameRange     '0.2.0',
+212 silly addNameRange     '0.2.1',
+212 silly addNameRange     '0.2.2',
+212 silly addNameRange     '0.3.0',
+212 silly addNameRange     '0.3.1',
+212 silly addNameRange     '0.3.2',
+212 silly addNameRange     '0.4.0',
+212 silly addNameRange     '0.4.1',
+212 silly addNameRange     '0.4.2',
+212 silly addNameRange     '0.5.0-rc.1',
+212 silly addNameRange     '0.5.0',
+212 silly addNameRange     '0.5.1',
+212 silly addNameRange     '0.5.2',
+212 silly addNameRange     '0.6.0',
+212 silly addNameRange     '0.6.1',
+212 silly addNameRange     '0.7.0',
+212 silly addNameRange     '0.8.0',
+212 silly addNameRange     '0.8.1',
+212 silly addNameRange     '0.8.2',
+212 silly addNameRange     '0.9.0',
+212 silly addNameRange     '0.9.1',
+212 silly addNameRange     '0.9.2',
+212 silly addNameRange     '0.10.0',
+212 silly addNameRange     '1.0.0-rc.1',
+212 silly addNameRange     '1.0.0-rc.2',
+212 silly addNameRange     '1.0.0-rc.3',
+212 silly addNameRange     '1.0.0',
+212 silly addNameRange     '1.0.1',
+212 silly addNameRange     '1.1.0',
+212 silly addNameRange     '1.1.1',
+212 silly addNameRange     '1.2.0',
+212 silly addNameRange     '1.2.1',
+212 silly addNameRange     '1.3.0',
+212 silly addNameRange     '1.3.1',
+212 silly addNameRange     '2.0.0',
+212 silly addNameRange     '2.1.0',
+212 silly addNameRange     '2.2.0',
+212 silly addNameRange     '2.2.1',
+212 silly addNameRange     '2.3.0',
+212 silly addNameRange     '2.4.0',
+212 silly addNameRange     '2.4.1',
+212 silly addNameRange     '3.0.0',
+212 silly addNameRange     '3.0.1',
+212 silly addNameRange     '3.1.0',
+212 silly addNameRange     '3.2.0',
+212 silly addNameRange     '3.3.0',
+212 silly addNameRange     '3.3.1',
+212 silly addNameRange     '3.4.0',
+212 silly addNameRange     '3.5.0',
+212 silly addNameRange     '3.6.0',
+212 silly addNameRange     '1.0.2',
+212 silly addNameRange     '3.7.0',
+212 silly addNameRange     '2.4.2',
+212 silly addNameRange     '3.8.0',
+212 silly addNameRange     '3.9.0',
+212 silly addNameRange     '3.9.1',
+212 silly addNameRange     '3.9.2',
+212 silly addNameRange     '3.9.3',
+212 silly addNameRange     '3.10.0',
+212 silly addNameRange     '3.10.1' ] ]
+213 silly addNamed lodash@1.0.2
+214 verbose addNamed "1.0.2" is a plain semver version for lodash
+215 verbose afterAdd /Users/andreas/.npm/async/0.2.10/package/package.json written
+216 silly cache afterAdd lodash@1.0.2
+217 verbose afterAdd /Users/andreas/.npm/lodash/1.0.2/package/package.json not in flight; writing
+218 verbose afterAdd /Users/andreas/.npm/lodash/1.0.2/package/package.json written
+219 http 304 https://registry.npmjs.org/gm
+220 silly get cb [ 304,
+220 silly get   { date: 'Mon, 28 Sep 2015 12:24:18 GMT',
+220 silly get     via: '1.1 varnish',
+220 silly get     'cache-control': 'max-age=60',
+220 silly get     etag: '"8T59ODL3SNJB16OJAM8P7CR27"',
+220 silly get     age: '0',
+220 silly get     connection: 'keep-alive',
+220 silly get     'x-served-by': 'cache-lhr6329-LHR',
+220 silly get     'x-cache': 'HIT',
+220 silly get     'x-cache-hits': '1',
+220 silly get     'x-timer': 'S1443443058.659103,VS0,VE88',
+220 silly get     vary: 'Accept' } ]
+221 verbose etag https://registry.npmjs.org/gm from cache
+222 verbose get saving gm to /Users/andreas/.npm/registry.npmjs.org/gm/.cache.json
+223 silly addNameRange number 2 { name: 'gm', range: '>=1.14.2 <1.15.0', hasData: true }
+224 silly addNameRange versions [ 'gm',
+224 silly addNameRange   [ '0.1.1',
+224 silly addNameRange     '0.1.2',
+224 silly addNameRange     '0.2.0',
+224 silly addNameRange     '0.2.1',
+224 silly addNameRange     '0.3.0',
+224 silly addNameRange     '0.3.1',
+224 silly addNameRange     '0.3.2',
+224 silly addNameRange     '0.4.0',
+224 silly addNameRange     '0.4.1',
+224 silly addNameRange     '0.4.2',
+224 silly addNameRange     '0.4.3',
+224 silly addNameRange     '0.5.0',
+224 silly addNameRange     '0.6.0',
+224 silly addNameRange     '1.0.0',
+224 silly addNameRange     '1.0.1',
+224 silly addNameRange     '1.0.2',
+224 silly addNameRange     '1.0.3',
+224 silly addNameRange     '1.0.4',
+224 silly addNameRange     '1.0.5',
+224 silly addNameRange     '1.1.0',
+224 silly addNameRange     '1.2.0',
+224 silly addNameRange     '1.3.0',
+224 silly addNameRange     '1.3.1',
+224 silly addNameRange     '1.3.2',
+224 silly addNameRange     '1.4.0',
+224 silly addNameRange     '1.4.1',
+224 silly addNameRange     '1.4.2',
+224 silly addNameRange     '1.5.0',
+224 silly addNameRange     '1.5.1',
+224 silly addNameRange     '1.6.0',
+224 silly addNameRange     '1.6.1',
+224 silly addNameRange     '1.7.0',
+224 silly addNameRange     '1.8.0',
+224 silly addNameRange     '1.8.1',
+224 silly addNameRange     '1.8.2',
+224 silly addNameRange     '1.9.0',
+224 silly addNameRange     '1.9.1',
+224 silly addNameRange     '1.9.2',
+224 silly addNameRange     '1.10.0',
+224 silly addNameRange     '1.11.0',
+224 silly addNameRange     '1.11.1',
+224 silly addNameRange     '1.12.0',
+224 silly addNameRange     '1.12.1',
+224 silly addNameRange     '1.12.2',
+224 silly addNameRange     '1.13.0',
+224 silly addNameRange     '1.13.1',
+224 silly addNameRange     '1.13.2',
+224 silly addNameRange     '1.13.3',
+224 silly addNameRange     '1.14.0',
+224 silly addNameRange     '1.14.1',
+224 silly addNameRange     '1.14.2',
+224 silly addNameRange     '1.15.0',
+224 silly addNameRange     '1.16.0',
+224 silly addNameRange     '1.17.0',
+224 silly addNameRange     '1.18.1',
+224 silly addNameRange     '1.19.0',
+224 silly addNameRange     '1.20.0' ] ]
+225 silly addNamed gm@1.14.2
+226 verbose addNamed "1.14.2" is a plain semver version for gm
+227 silly cache afterAdd gm@1.14.2
+228 verbose afterAdd /Users/andreas/.npm/gm/1.14.2/package/package.json not in flight; writing
+229 verbose afterAdd /Users/andreas/.npm/gm/1.14.2/package/package.json written
+230 http 304 https://registry.npmjs.org/inotify
+231 silly get cb [ 304,
+231 silly get   { date: 'Mon, 28 Sep 2015 12:24:18 GMT',
+231 silly get     via: '1.1 varnish',
+231 silly get     'cache-control': 'max-age=60',
+231 silly get     etag: '"4ZY5A5WQTFKRIA2LNLBYWNNEV"',
+231 silly get     age: '0',
+231 silly get     connection: 'keep-alive',
+231 silly get     'x-served-by': 'cache-lhr6326-LHR',
+231 silly get     'x-cache': 'MISS',
+231 silly get     'x-cache-hits': '0',
+231 silly get     'x-timer': 'S1443443058.645319,VS0,VE195',
+231 silly get     vary: 'Accept' } ]
+232 verbose etag https://registry.npmjs.org/inotify from cache
+233 verbose get saving inotify to /Users/andreas/.npm/registry.npmjs.org/inotify/.cache.json
+234 silly addNameRange number 2 { name: 'inotify', range: '>=0.1.6', hasData: true }
+235 silly addNameRange versions [ 'inotify',
+235 silly addNameRange   [ '0.1.2',
+235 silly addNameRange     '0.1.3',
+235 silly addNameRange     '0.1.4',
+235 silly addNameRange     '0.1.5',
+235 silly addNameRange     '0.1.6',
+235 silly addNameRange     '0.1.7',
+235 silly addNameRange     '0.1.8',
+235 silly addNameRange     '0.2.0',
+235 silly addNameRange     '0.2.1',
+235 silly addNameRange     '0.2.2',
+235 silly addNameRange     '1.0.0',
+235 silly addNameRange     '1.1.0',
+235 silly addNameRange     '1.2.0',
+235 silly addNameRange     '1.2.1',
+235 silly addNameRange     '1.3.0',
+235 silly addNameRange     '1.4.0' ] ]
+236 silly addNamed inotify@1.4.0
+237 verbose addNamed "1.4.0" is a plain semver version for inotify
+238 silly cache afterAdd inotify@1.4.0
+239 verbose afterAdd /Users/andreas/.npm/inotify/1.4.0/package/package.json not in flight; writing
+240 verbose afterAdd /Users/andreas/.npm/inotify/1.4.0/package/package.json written
+241 silly install resolved [ { name: 'inotify',
+241 silly install resolved     version: '1.4.0',
+241 silly install resolved     author: { name: 'Camilo Aguilar', email: 'camilo.aguilar@gmail.com' },
+241 silly install resolved     email: 'camilo.aguilar@gmail.com',
+241 silly install resolved     keywords:
+241 silly install resolved      [ 'inotify',
+241 silly install resolved        'watch',
+241 silly install resolved        'monitor',
+241 silly install resolved        'watch files',
+241 silly install resolved        'watch directories' ],
+241 silly install resolved     license: 'MIT',
+241 silly install resolved     description: 'inotify bindings for v8 javascript engine',
+241 silly install resolved     repository:
+241 silly install resolved      { type: 'git',
+241 silly install resolved        url: 'git+ssh://git@github.com/c4milo/node-inotify.git' },
+241 silly install resolved     engines: { node: '>=0.8' },
+241 silly install resolved     main: 'inotify',
+241 silly install resolved     dependencies: { nan: '^2.0.5' },
+241 silly install resolved     scripts:
+241 silly install resolved      { test: 'node-gyp configure build',
+241 silly install resolved        install: 'node-gyp rebuild' },
+241 silly install resolved     gypfile: true,
+241 silly install resolved     contributors:
+241 silly install resolved      [ [Object],
+241 silly install resolved        [Object],
+241 silly install resolved        [Object],
+241 silly install resolved        [Object],
+241 silly install resolved        [Object],
+241 silly install resolved        [Object],
+241 silly install resolved        [Object] ],
+241 silly install resolved     gitHead: '16e8944a62d1aa4315e9cbec377970f056aaab68',
+241 silly install resolved     bugs: { url: 'https://github.com/c4milo/node-inotify/issues' },
+241 silly install resolved     homepage: 'https://github.com/c4milo/node-inotify#readme',
+241 silly install resolved     _id: 'inotify@1.4.0',
+241 silly install resolved     _shasum: 'c4a425d2035905a8da03f37426ff717160acdfee',
+241 silly install resolved     _from: 'inotify@>=0.1.6',
+241 silly install resolved     _npmVersion: '2.12.1',
+241 silly install resolved     _nodeVersion: '0.12.7',
+241 silly install resolved     _npmUser: { name: 'c4milo', email: 'camilo.aguilar@gmail.com' },
+241 silly install resolved     maintainers: [ [Object], [Object] ],
+241 silly install resolved     dist:
+241 silly install resolved      { shasum: 'c4a425d2035905a8da03f37426ff717160acdfee',
+241 silly install resolved        tarball: 'http://registry.npmjs.org/inotify/-/inotify-1.4.0.tgz' },
+241 silly install resolved     directories: {},
+241 silly install resolved     _resolved: 'https://registry.npmjs.org/inotify/-/inotify-1.4.0.tgz',
+241 silly install resolved     readme: 'ERROR: No README data found!' } ]
+242 info install inotify@1.4.0 into /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev
+243 info installOne inotify@1.4.0
+244 verbose installOne of inotify to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev not in flight; installing
+245 verbose lock using /Users/andreas/.npm/_locks/inotify-fe49f72a7d64ffba.lock for /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/node_modules/inotify
+246 silly install write writing inotify 1.4.0 to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/node_modules/inotify
+247 verbose unbuild node_modules/dev/node_modules/inotify
+248 silly gentlyRm /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/node_modules/inotify is being purged from base /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume
+249 verbose gentlyRm don't care about contents; nuking /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/node_modules/inotify
+250 verbose tar unpack /Users/andreas/.npm/inotify/1.4.0/package.tgz
+251 verbose tar unpacking to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/node_modules/inotify
+252 silly gentlyRm /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/node_modules/inotify is being purged
+253 verbose gentlyRm don't care about contents; nuking /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/node_modules/inotify
+254 silly gunzTarPerm modes [ '755', '644' ]
+255 silly gunzTarPerm extractEntry package.json
+256 silly gunzTarPerm extractEntry .npmignore
+257 silly gunzTarPerm extractEntry README.md
+258 silly gunzTarPerm extractEntry LICENSE
+259 silly gunzTarPerm extractEntry example.js
+260 silly gunzTarPerm extractEntry inotify.js
+261 silly gunzTarPerm extractEntry binding.gyp
+262 silly gunzTarPerm extractEntry src/bindings.cc
+263 silly gunzTarPerm extractEntry src/bindings.h
+264 silly gunzTarPerm extractEntry src/node_inotify.cc
+265 silly gunzTarPerm extractEntry src/node_inotify.h
+266 silly gunzTarPerm extractEntry AUTHORS
+267 silly gunzTarPerm extractEntry .travis.yml
+268 silly gunzTarPerm extractEntry Vagrantfile
+269 verbose write writing to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/node_modules/inotify/package.json
+270 info preinstall inotify@1.4.0
+271 verbose readDependencies loading dependencies from /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/node_modules/inotify/package.json
+272 silly prepareForInstallMany adding nan@^2.0.5 from inotify dependencies
+273 verbose readDependencies loading dependencies from /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/node_modules/inotify/package.json
+274 silly cache add args [ 'nan@^2.0.5', null ]
+275 verbose cache add spec nan@^2.0.5
+276 silly cache add parsed spec Result {
+276 silly cache add   raw: 'nan@^2.0.5',
+276 silly cache add   scope: null,
+276 silly cache add   name: 'nan',
+276 silly cache add   rawSpec: '^2.0.5',
+276 silly cache add   spec: '>=2.0.5 <3.0.0',
+276 silly cache add   type: 'range' }
+277 silly addNamed nan@>=2.0.5 <3.0.0
+278 verbose addNamed ">=2.0.5 <3.0.0" is a valid semver range for nan
+279 silly addNameRange { name: 'nan', range: '>=2.0.5 <3.0.0', hasData: false }
+280 silly mapToRegistry name nan
+281 silly mapToRegistry using default registry
+282 silly mapToRegistry registry https://registry.npmjs.org/
+283 silly mapToRegistry uri https://registry.npmjs.org/nan
+284 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+285 verbose request uri https://registry.npmjs.org/nan
+286 verbose request no auth needed
+287 info attempt registry request try #1 at 14:24:18
+288 verbose etag "1L4RU1AM541YSVP1YQFXG1Y1J"
+289 http request GET https://registry.npmjs.org/nan
+290 http 304 https://registry.npmjs.org/nan
+291 silly get cb [ 304,
+291 silly get   { date: 'Mon, 28 Sep 2015 12:24:18 GMT',
+291 silly get     via: '1.1 varnish',
+291 silly get     'cache-control': 'max-age=60',
+291 silly get     etag: '"1L4RU1AM541YSVP1YQFXG1Y1J"',
+291 silly get     age: '29',
+291 silly get     connection: 'keep-alive',
+291 silly get     'x-served-by': 'cache-lhr6329-LHR',
+291 silly get     'x-cache': 'HIT',
+291 silly get     'x-cache-hits': '1',
+291 silly get     'x-timer': 'S1443443058.983442,VS0,VE7',
+291 silly get     vary: 'Accept' } ]
+292 verbose etag https://registry.npmjs.org/nan from cache
+293 verbose get saving nan to /Users/andreas/.npm/registry.npmjs.org/nan/.cache.json
+294 silly addNameRange number 2 { name: 'nan', range: '>=2.0.5 <3.0.0', hasData: true }
+295 silly addNameRange versions [ 'nan',
+295 silly addNameRange   [ '0.3.0-wip',
+295 silly addNameRange     '0.3.0-wip2',
+295 silly addNameRange     '0.3.0',
+295 silly addNameRange     '0.3.1',
+295 silly addNameRange     '0.3.2',
+295 silly addNameRange     '0.4.0',
+295 silly addNameRange     '0.4.1',
+295 silly addNameRange     '0.4.2',
+295 silly addNameRange     '0.4.3',
+295 silly addNameRange     '0.4.4',
+295 silly addNameRange     '0.5.0',
+295 silly addNameRange     '0.5.1',
+295 silly addNameRange     '0.5.2',
+295 silly addNameRange     '0.6.0',
+295 silly addNameRange     '0.7.0',
+295 silly addNameRange     '0.7.1',
+295 silly addNameRange     '0.8.0',
+295 silly addNameRange     '1.0.0',
+295 silly addNameRange     '1.1.0',
+295 silly addNameRange     '1.1.1',
+295 silly addNameRange     '1.1.2',
+295 silly addNameRange     '1.2.0',
+295 silly addNameRange     '1.3.0',
+295 silly addNameRange     '1.4.0',
+295 silly addNameRange     '1.4.1',
+295 silly addNameRange     '1.5.0',
+295 silly addNameRange     '1.4.2',
+295 silly addNameRange     '1.4.3',
+295 silly addNameRange     '1.5.1',
+295 silly addNameRange     '1.5.2',
+295 silly addNameRange     '1.6.0',
+295 silly addNameRange     '1.5.3',
+295 silly addNameRange     '1.6.1',
+295 silly addNameRange     '1.6.2',
+295 silly addNameRange     '1.7.0',
+295 silly addNameRange     '1.8.0',
+295 silly addNameRange     '1.8.1',
+295 silly addNameRange     '1.8.2',
+295 silly addNameRange     '1.8.3',
+295 silly addNameRange     '1.8.4',
+295 silly addNameRange     '1.9.0',
+295 silly addNameRange     '2.0.0',
+295 silly addNameRange     '2.0.1',
+295 silly addNameRange     '2.0.2',
+295 silly addNameRange     '2.0.3',
+295 silly addNameRange     '2.0.4',
+295 silly addNameRange     '2.0.5',
+295 silly addNameRange     '2.0.6',
+295 silly addNameRange     '2.0.7',
+295 silly addNameRange     '2.0.8',
+295 silly addNameRange     '2.0.9' ] ]
+296 silly addNamed nan@2.0.9
+297 verbose addNamed "2.0.9" is a plain semver version for nan
+298 silly cache afterAdd nan@2.0.9
+299 verbose afterAdd /Users/andreas/.npm/nan/2.0.9/package/package.json not in flight; writing
+300 verbose afterAdd /Users/andreas/.npm/nan/2.0.9/package/package.json written
+301 silly install resolved [ { name: 'nan',
+301 silly install resolved     version: '2.0.9',
+301 silly install resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8 -> 4 compatibility',
+301 silly install resolved     main: 'include_dirs.js',
+301 silly install resolved     repository: { type: 'git', url: 'git://github.com/nodejs/nan.git' },
+301 silly install resolved     scripts:
+301 silly install resolved      { test: 'tap --gc test/js/*-test.js',
+301 silly install resolved        'rebuild-tests': 'pangyp rebuild --msvs_version=2013 --directory test',
+301 silly install resolved        docs: 'doc/.build.sh' },
+301 silly install resolved     contributors:
+301 silly install resolved      [ [Object],
+301 silly install resolved        [Object],
+301 silly install resolved        [Object],
+301 silly install resolved        [Object],
+301 silly install resolved        [Object],
+301 silly install resolved        [Object],
+301 silly install resolved        [Object] ],
+301 silly install resolved     devDependencies:
+301 silly install resolved      { bindings: '~1.2.1',
+301 silly install resolved        commander: '^2.8.1',
+301 silly install resolved        glob: '^5.0.14',
+301 silly install resolved        'node-gyp': '~2.0.2',
+301 silly install resolved        pangyp: '~2.2.0',
+301 silly install resolved        tap: '~0.7.1',
+301 silly install resolved        xtend: '~4.0.0' },
+301 silly install resolved     license: 'MIT',
+301 silly install resolved     bugs: { url: 'https://github.com/nodejs/nan/issues' },
+301 silly install resolved     homepage: 'https://github.com/nodejs/nan#readme',
+301 silly install resolved     _id: 'nan@2.0.9',
+301 silly install resolved     _shasum: 'd02a770f46778842cceb94e17cab31ffc7234a05',
+301 silly install resolved     _resolved: 'https://registry.npmjs.org/nan/-/nan-2.0.9.tgz',
+301 silly install resolved     _from: 'nan@>=2.0.5 <3.0.0',
+301 silly install resolved     _npmVersion: '2.14.2',
+301 silly install resolved     _nodeVersion: '4.0.0',
+301 silly install resolved     _npmUser: { name: 'kkoopa', email: 'bbyholm@abo.fi' },
+301 silly install resolved     maintainers: [ [Object], [Object] ],
+301 silly install resolved     dist:
+301 silly install resolved      { shasum: 'd02a770f46778842cceb94e17cab31ffc7234a05',
+301 silly install resolved        tarball: 'http://registry.npmjs.org/nan/-/nan-2.0.9.tgz' },
+301 silly install resolved     directories: {},
+301 silly install resolved     readme: 'ERROR: No README data found!' } ]
+302 info install nan@2.0.9 into /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/node_modules/inotify
+303 info installOne nan@2.0.9
+304 verbose installOne of nan to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/node_modules/inotify not in flight; installing
+305 verbose lock using /Users/andreas/.npm/_locks/nan-4472c7cb23e39747.lock for /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/node_modules/inotify/node_modules/nan
+306 silly install write writing nan 2.0.9 to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/node_modules/inotify/node_modules/nan
+307 verbose unbuild node_modules/dev/node_modules/inotify/node_modules/nan
+308 silly gentlyRm /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/node_modules/inotify/node_modules/nan is being purged from base /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume
+309 verbose gentlyRm don't care about contents; nuking /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/node_modules/inotify/node_modules/nan
+310 verbose tar unpack /Users/andreas/.npm/nan/2.0.9/package.tgz
+311 verbose tar unpacking to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/node_modules/inotify/node_modules/nan
+312 silly gentlyRm /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/node_modules/inotify/node_modules/nan is being purged
+313 verbose gentlyRm don't care about contents; nuking /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/node_modules/inotify/node_modules/nan
+314 silly gunzTarPerm modes [ '755', '644' ]
+315 silly gunzTarPerm extractEntry package.json
+316 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+317 silly gunzTarPerm extractEntry README.md
+318 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+319 silly gunzTarPerm extractEntry include_dirs.js
+320 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 420 ]
+321 silly gunzTarPerm extractEntry nan_converters.h
+322 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 420 ]
+323 silly gunzTarPerm extractEntry LICENSE.md
+324 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 420 ]
+325 silly gunzTarPerm extractEntry .dntrc
+326 silly gunzTarPerm modified mode [ '.dntrc', 436, 420 ]
+327 silly gunzTarPerm extractEntry appveyor.yml
+328 silly gunzTarPerm modified mode [ 'appveyor.yml', 436, 420 ]
+329 silly gunzTarPerm extractEntry doc/new.md
+330 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 420 ]
+331 silly gunzTarPerm extractEntry doc/.build.sh
+332 silly gunzTarPerm modified mode [ 'doc/.build.sh', 509, 493 ]
+333 silly gunzTarPerm extractEntry doc/buffers.md
+334 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 420 ]
+335 silly gunzTarPerm extractEntry doc/callback.md
+336 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 420 ]
+337 silly gunzTarPerm extractEntry doc/converters.md
+338 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 420 ]
+339 silly gunzTarPerm extractEntry doc/errors.md
+340 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 420 ]
+341 silly gunzTarPerm extractEntry doc/maybe_types.md
+342 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 420 ]
+343 silly gunzTarPerm extractEntry doc/methods.md
+344 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 420 ]
+345 silly gunzTarPerm extractEntry doc/asyncworker.md
+346 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 420 ]
+347 silly gunzTarPerm extractEntry doc/node_misc.md
+348 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 420 ]
+349 silly gunzTarPerm extractEntry doc/persistent.md
+350 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 420 ]
+351 silly gunzTarPerm extractEntry doc/scopes.md
+352 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 420 ]
+353 silly gunzTarPerm extractEntry doc/script.md
+354 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 420 ]
+355 silly gunzTarPerm extractEntry doc/string_bytes.md
+356 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 420 ]
+357 silly gunzTarPerm extractEntry doc/v8_internals.md
+358 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 420 ]
+359 silly gunzTarPerm extractEntry doc/v8_misc.md
+360 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 420 ]
+361 silly gunzTarPerm extractEntry nan.h
+362 silly gunzTarPerm modified mode [ 'nan.h', 436, 420 ]
+363 silly gunzTarPerm extractEntry nan_callbacks.h
+364 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 420 ]
+365 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+366 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 420 ]
+367 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+368 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 420 ]
+369 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+370 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 420 ]
+371 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+372 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 420 ]
+373 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+374 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 420 ]
+375 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+376 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 420 ]
+377 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+378 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 420 ]
+379 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+380 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 420 ]
+381 silly gunzTarPerm extractEntry nan_new.h
+382 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 420 ]
+383 silly gunzTarPerm extractEntry nan_object_wrap.h
+384 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 420 ]
+385 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+386 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 420 ]
+387 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+388 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 420 ]
+389 silly gunzTarPerm extractEntry nan_string_bytes.h
+390 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 420 ]
+391 silly gunzTarPerm extractEntry nan_weak.h
+392 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 420 ]
+393 silly gunzTarPerm extractEntry CHANGELOG.md
+394 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 420 ]
+395 silly gunzTarPerm extractEntry tools/package.json
+396 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 420 ]
+397 silly gunzTarPerm extractEntry tools/README.md
+398 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 420 ]
+399 silly gunzTarPerm extractEntry tools/1to2.js
+400 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 493 ]
+401 verbose write writing to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/node_modules/inotify/node_modules/nan/package.json
+402 info preinstall nan@2.0.9
+403 verbose readDependencies loading dependencies from /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/node_modules/inotify/node_modules/nan/package.json
+404 verbose readDependencies loading dependencies from /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/node_modules/inotify/node_modules/nan/package.json
+405 silly install resolved []
+406 verbose about to build /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/node_modules/inotify/node_modules/nan
+407 info build /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/node_modules/inotify/node_modules/nan
+408 info linkStuff nan@2.0.9
+409 silly linkStuff nan@2.0.9 has /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/node_modules/inotify/node_modules as its parent node_modules
+410 verbose linkBins nan@2.0.9
+411 verbose linkMans nan@2.0.9
+412 verbose rebuildBundles nan@2.0.9
+413 info install nan@2.0.9
+414 info postinstall nan@2.0.9
+415 verbose unlock done using /Users/andreas/.npm/_locks/nan-4472c7cb23e39747.lock for /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/node_modules/inotify/node_modules/nan
+416 verbose about to build /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/node_modules/inotify
+417 info build /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/node_modules/inotify
+418 info linkStuff inotify@1.4.0
+419 silly linkStuff inotify@1.4.0 has /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/node_modules as its parent node_modules
+420 verbose linkBins inotify@1.4.0
+421 verbose linkMans inotify@1.4.0
+422 verbose rebuildBundles inotify@1.4.0
+423 verbose rebuildBundles [ 'nan' ]
+424 info install inotify@1.4.0
+425 verbose unsafe-perm in lifecycle true
+426 http 304 https://registry.npmjs.org/node-imagemagick
+427 silly get cb [ 304,
+427 silly get   { date: 'Mon, 28 Sep 2015 12:24:18 GMT',
+427 silly get     via: '1.1 varnish',
+427 silly get     'cache-control': 'max-age=60',
+427 silly get     etag: '"3WAG4043YLN586W8IA6VBOMN4"',
+427 silly get     age: '0',
+427 silly get     connection: 'keep-alive',
+427 silly get     'x-served-by': 'cache-lhr6321-LHR',
+427 silly get     'x-cache': 'MISS',
+427 silly get     'x-cache-hits': '0',
+427 silly get     'x-timer': 'S1443443058.652942,VS0,VE448',
+427 silly get     vary: 'Accept' } ]
+428 verbose etag https://registry.npmjs.org/node-imagemagick from cache
+429 verbose get saving node-imagemagick to /Users/andreas/.npm/registry.npmjs.org/node-imagemagick/.cache.json
+430 silly addNameRange number 2 { name: 'node-imagemagick',
+430 silly addNameRange   range: '>=0.1.8 <0.2.0',
+430 silly addNameRange   hasData: true }
+431 silly addNameRange versions [ 'node-imagemagick',
+431 silly addNameRange   [ '0.1.3', '0.1.4', '0.1.5', '0.1.6', '0.1.7', '0.1.8' ] ]
+432 silly addNamed node-imagemagick@0.1.8
+433 verbose addNamed "0.1.8" is a plain semver version for node-imagemagick
+434 silly cache afterAdd node-imagemagick@0.1.8
+435 verbose afterAdd /Users/andreas/.npm/node-imagemagick/0.1.8/package/package.json not in flight; writing
+436 verbose afterAdd /Users/andreas/.npm/node-imagemagick/0.1.8/package/package.json written
+437 silly install resolved [ { name: 'async',
+437 silly install resolved     description: 'Higher-order functions and common patterns for asynchronous code',
+437 silly install resolved     main: './lib/async',
+437 silly install resolved     author: { name: 'Caolan McMahon' },
+437 silly install resolved     version: '0.2.10',
+437 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/caolan/async.git' },
+437 silly install resolved     bugs: { url: 'https://github.com/caolan/async/issues' },
+437 silly install resolved     licenses: [ [Object] ],
+437 silly install resolved     devDependencies: { nodeunit: '>0.0.0', 'uglify-js': '1.2.x', nodelint: '>0.0.0' },
+437 silly install resolved     jam: { main: 'lib/async.js', include: [Object] },
+437 silly install resolved     scripts: { test: 'nodeunit test/test-async.js' },
+437 silly install resolved     _id: 'async@0.2.10',
+437 silly install resolved     dist:
+437 silly install resolved      { shasum: 'b6bbe0b0674b9d719708ca38de8c237cb526c3d1',
+437 silly install resolved        tarball: 'http://registry.npmjs.org/async/-/async-0.2.10.tgz' },
+437 silly install resolved     _from: 'async@>=0.2.8 <0.3.0',
+437 silly install resolved     _npmVersion: '1.3.2',
+437 silly install resolved     _npmUser: { name: 'caolan', email: 'caolan.mcmahon@gmail.com' },
+437 silly install resolved     maintainers: [ [Object] ],
+437 silly install resolved     directories: {},
+437 silly install resolved     _shasum: 'b6bbe0b0674b9d719708ca38de8c237cb526c3d1',
+437 silly install resolved     _resolved: 'https://registry.npmjs.org/async/-/async-0.2.10.tgz',
+437 silly install resolved     readme: 'ERROR: No README data found!',
+437 silly install resolved     homepage: 'https://github.com/caolan/async#readme' },
+437 silly install resolved   { name: 'lodash',
+437 silly install resolved     version: '1.0.2',
+437 silly install resolved     description: 'A utility library delivering consistency, customization, performance, and extras.',
+437 silly install resolved     homepage: 'https://lodash.com/',
+437 silly install resolved     license: 'MIT',
+437 silly install resolved     main: './dist/lodash.js',
+437 silly install resolved     keywords:
+437 silly install resolved      [ 'browser',
+437 silly install resolved        'client',
+437 silly install resolved        'functional',
+437 silly install resolved        'performance',
+437 silly install resolved        'server',
+437 silly install resolved        'speed',
+437 silly install resolved        'util' ],
+437 silly install resolved     author:
+437 silly install resolved      { name: 'John-David Dalton',
+437 silly install resolved        email: 'john.david.dalton@gmail.com',
+437 silly install resolved        url: 'http://allyoucanleet.com/' },
+437 silly install resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+437 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+437 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
+437 silly install resolved     engines: [ 'node', 'rhino' ],
+437 silly install resolved     jam: { main: './dist/lodash.compat.js' },
+437 silly install resolved     _id: 'lodash@1.0.2',
+437 silly install resolved     scripts: {},
+437 silly install resolved     _shasum: '8f57560c83b59fc270bd3d561b690043430e2551',
+437 silly install resolved     _from: 'lodash@>=1.0.0 <1.1.0',
+437 silly install resolved     _npmVersion: '2.7.3',
+437 silly install resolved     _nodeVersion: '0.12.0',
+437 silly install resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
+437 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+437 silly install resolved     dist:
+437 silly install resolved      { shasum: '8f57560c83b59fc270bd3d561b690043430e2551',
+437 silly install resolved        tarball: 'http://registry.npmjs.org/lodash/-/lodash-1.0.2.tgz' },
+437 silly install resolved     directories: {},
+437 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash/-/lodash-1.0.2.tgz',
+437 silly install resolved     readme: 'ERROR: No README data found!' },
+437 silly install resolved   { name: 'gm',
+437 silly install resolved     description: 'GraphicsMagick and ImageMagick for node.js',
+437 silly install resolved     version: '1.14.2',
+437 silly install resolved     author:
+437 silly install resolved      { name: 'Aaron Heckmann',
+437 silly install resolved        email: 'aaron.heckmann+github@gmail.com' },
+437 silly install resolved     keywords:
+437 silly install resolved      [ 'graphics',
+437 silly install resolved        'magick',
+437 silly install resolved        'image',
+437 silly install resolved        'graphicsmagick',
+437 silly install resolved        'imagemagick',
+437 silly install resolved        'gm',
+437 silly install resolved        'convert',
+437 silly install resolved        'identify',
+437 silly install resolved        'compare' ],
+437 silly install resolved     engines: { node: '>= 0.8.0' },
+437 silly install resolved     bugs: { url: 'http://github.com/aheckmann/gm/issues' },
+437 silly install resolved     licenses: [ [Object] ],
+437 silly install resolved     main: './index',
+437 silly install resolved     scripts: { test: 'make test-unit; make test;' },
+437 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/aheckmann/gm.git' },
+437 silly install resolved     license: 'MIT',
+437 silly install resolved     devDependencies: { gleak: '0.4.0', async: '~0.2.7' },
+437 silly install resolved     dependencies:
+437 silly install resolved      { debug: '0.7.0',
+437 silly install resolved        'array-series': '~0.1.0',
+437 silly install resolved        'array-parallel': '~0.1.0',
+437 silly install resolved        'stream-to-buffer': '~0.0.1',
+437 silly install resolved        through: '~2.3.1' },
+437 silly install resolved     _id: 'gm@1.14.2',
+437 silly install resolved     dist:
+437 silly install resolved      { shasum: '271f47dfcfbe21c09d7f28c3fde7cc4b8b18decc',
+437 silly install resolved        tarball: 'http://registry.npmjs.org/gm/-/gm-1.14.2.tgz' },
+437 silly install resolved     _from: 'gm@>=1.14.2 <1.15.0',
+437 silly install resolved     _npmVersion: '1.2.30',
+437 silly install resolved     _npmUser: { name: 'jongleberry', email: 'jonathanrichardong@gmail.com' },
+437 silly install resolved     maintainers: [ [Object], [Object] ],
+437 silly install resolved     directories: {},
+437 silly install resolved     _shasum: '271f47dfcfbe21c09d7f28c3fde7cc4b8b18decc',
+437 silly install resolved     _resolved: 'https://registry.npmjs.org/gm/-/gm-1.14.2.tgz',
+437 silly install resolved     readme: 'ERROR: No README data found!',
+437 silly install resolved     homepage: 'https://github.com/aheckmann/gm#readme' },
+437 silly install resolved   { name: 'node-imagemagick',
+437 silly install resolved     version: '0.1.8',
+437 silly install resolved     author: { name: 'Sean McGary' },
+437 silly install resolved     description: 'Updated version of node-imagemagick',
+437 silly install resolved     contributors: [ [Object] ],
+437 silly install resolved     repository:
+437 silly install resolved      { type: 'git',
+437 silly install resolved        url: 'git+https://github.com/seanmcgary/node-imagemagick.git' },
+437 silly install resolved     keywords: [ 'imagemagick', 'node-imagemagick', 'image', 'manipulation' ],
+437 silly install resolved     license: 'MIT',
+437 silly install resolved     engines: { node: '>=0.8.0' },
+437 silly install resolved     readme: '# node-imagemagick\n\n## Dependencies\n\nRequires imagemagick libraries\n\n``` \nbrew install imagemagick\n```\n\n[Imagemagick](http://www.imagemagick.org/) module for [Node](http://nodejs.org/).\n\nYou can install this module using [npm](http://github.com/isaacs/npm):\n\n    npm install imagemagick\n\n## Example\n\n    var im = require(\'imagemagick\');\n    im.readMetadata(\'kittens.jpg\', function(err, metadata){\n      if (err) throw err;\n      console.log(\'Shot at \'+metadata.exif.dateTimeOriginal);\n    })\n    // -> Shot at Tue, 06 Feb 2007 21:13:54 GMT\n\n## API\n\n### convert.path\n\nPath to the `convert` program. Defaults to `"convert"`.\n\n### identify.path\n\nPath to the `identify` program. Defaults to `"identify"`.\n\n### identify(path, callback(err, features))\n\nIdentify file at `path` and return an object `features`.\n\nExample:\n\n    im.identify(\'kittens.jpg\', function(err, features){\n      if (err) throw err\n      console.log(features)\n      // { format: \'JPEG\', width: 3904, height: 2622, depth: 8 }\n    })\n\n### identify(args, callback(err, output))\n\nCustom identification where `args` is an array of arguments. The result is returned as a raw string to `output`.\n\nExample:\n\n    im.identify([\'-format\', \'%wx%h\', \'kittens.jpg\'], function(err, output){\n      if (err) throw err\n      console.log(\'dimension: \'+output)\n      // dimension: 3904x2622\n    })\n\n### readMetadata(path, callback(err, metadata))\n\nRead metadata (i.e. exif) in `path` and return an object `metadata`. Modelled on top of `identify`.\n\nExample:\n\n    im.readMetadata(\'kittens.jpg\', function(err, metadata){\n      if (err) throw err\n      console.log(\'Shot at \'+metadata.exif.dateTimeOriginal)\n    })\n    // -> Shot at Tue, 06 Feb 2007 21:13:54 GMT\n\n\n### convert(args, callback(err, stdout, stderr))\n\nRaw interface to `convert` passing arguments in the array `args`.\n\nExample:\n\n    im.convert([\'kittens.jpg\', \'-resize\', \'25x120\', \'kittens-small.jpg\'], \n    function(err, metadata){\n      if (err) throw err\n      console.log(\'stdout:\', stdout);\n    })\n\n### resize(options, callback(err, stdout, stderr))\n\nConvenience function for resizing an image, modelled on top of `convert`.\n\nThe `options` argument have the following default values:\n\n    {\n      srcPath: undefined,\n      srcData: null,\n      srcFormat: null,\n      dstPath: undefined,\n      quality: 0.8,\n      format: \'jpg\',\n      progressive: false,\n      width: 0,\n      height: 0,\n      strip: true,\n      filter: \'Lagrange\',\n      sharpening: 0.2,\n      customArgs: []\n    }\n\nsrcPath, dstPath and (at least one of) width and height are required. The rest is optional.\n\nExample:\n\n    im.resize({\n      srcPath: \'kittens.jpg\',\n      dstPath: \'kittens-small.jpg\',\n      width:   256\n    }, function(err, stdout, stderr){\n      if (err) throw err\n      console.log(\'resized kittens.jpg to fit within 256x256px\')\n    });\n\nExample with stdin/stdout:\n\n    var fs = require(\'fs\');\n    im.resize({\n      srcData: fs.readFileSync(\'kittens.jpg\', \'binary\'),\n      width:   256\n    }, function(err, stdout, stderr){\n      if (err) throw err\n      fs.writeFileSync(\'kittens-resized.jpg\', stdout, \'binary\');\n      console.log(\'resized kittens.jpg to fit within 256x256px\')\n    });\n\n### crop(options, callback) ###\nConvenience function for resizing and cropping an image. _crop_ uses the resize method, so _options_ and _callback_ are the same. _crop_ uses _options.srcPath_, so make sure you set it :) Using only _options.width_ or _options.height_ will create a square dimensioned image.\n\nExample:\n\n    im.crop({\n      srcPath: path,\n      dstPath: \'cropped.jpg\',\n      width: 800,\n      height: 600,\n      quality: 1\n    }, function(err, stdout, stderr){\n      // foo\n    })\n\n## License (MIT)\n\nCopyright (c) 2010-2011 Rasmus Andersson <http://hunch.se/>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the "Software"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n',
+437 silly install resolved     _id: 'node-imagemagick@0.1.8',
+437 silly install resolved     dist:
+437 silly install resolved      { shasum: 'b6253d257d8ca0d035cf8215912a378f0998afc7',
+437 silly install resolved        tarball: 'http://registry.npmjs.org/node-imagemagick/-/node-imagemagick-0.1.8.tgz' },
+437 silly install resolved     maintainers: [ [Object] ],
+437 silly install resolved     directories: {},
+437 silly install resolved     _shasum: 'b6253d257d8ca0d035cf8215912a378f0998afc7',
+437 silly install resolved     _resolved: 'https://registry.npmjs.org/node-imagemagick/-/node-imagemagick-0.1.8.tgz',
+437 silly install resolved     _from: 'node-imagemagick@>=0.1.8 <0.2.0',
+437 silly install resolved     bugs: { url: 'https://github.com/seanmcgary/node-imagemagick/issues' },
+437 silly install resolved     homepage: 'https://github.com/seanmcgary/node-imagemagick#readme' } ]
+438 info install async@0.2.10 into /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images
+439 info install lodash@1.0.2 into /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images
+440 info install gm@1.14.2 into /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images
+441 info install node-imagemagick@0.1.8 into /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images
+442 info installOne async@0.2.10
+443 verbose installOne of async to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images not in flight; installing
+444 info installOne lodash@1.0.2
+445 verbose installOne of lodash to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images not in flight; installing
+446 info installOne gm@1.14.2
+447 verbose installOne of gm to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images not in flight; installing
+448 info installOne node-imagemagick@0.1.8
+449 verbose installOne of node-imagemagick to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images not in flight; installing
+450 verbose lock using /Users/andreas/.npm/_locks/async-8d146f1b8b062e30.lock for /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/async
+451 verbose lock using /Users/andreas/.npm/_locks/lodash-ca1c69368715b5c6.lock for /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/lodash
+452 verbose lock using /Users/andreas/.npm/_locks/gm-2ab7f483aef1fdfc.lock for /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm
+453 silly install write writing async 0.2.10 to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/async
+454 silly install write writing lodash 1.0.2 to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/lodash
+455 verbose lock using /Users/andreas/.npm/_locks/node-imagemagick-b7f058ccfbdbcb83.lock for /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/node-imagemagick
+456 silly install write writing gm 1.14.2 to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm
+457 silly install write writing node-imagemagick 0.1.8 to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/node-imagemagick
+458 verbose unbuild node_modules/grunt-responsive-images/node_modules/async
+459 verbose unbuild node_modules/grunt-responsive-images/node_modules/lodash
+460 verbose unbuild node_modules/grunt-responsive-images/node_modules/gm
+461 verbose unbuild node_modules/grunt-responsive-images/node_modules/node-imagemagick
+462 silly gentlyRm /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/async is being purged from base /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume
+463 verbose gentlyRm don't care about contents; nuking /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/async
+464 silly gentlyRm /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/lodash is being purged from base /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume
+465 verbose gentlyRm don't care about contents; nuking /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/lodash
+466 silly gentlyRm /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm is being purged from base /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume
+467 verbose gentlyRm don't care about contents; nuking /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm
+468 verbose tar unpack /Users/andreas/.npm/async/0.2.10/package.tgz
+469 verbose tar unpacking to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/async
+470 silly gentlyRm /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/async is being purged
+471 verbose gentlyRm don't care about contents; nuking /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/async
+472 verbose tar unpack /Users/andreas/.npm/lodash/1.0.2/package.tgz
+473 verbose tar unpacking to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/lodash
+474 silly gentlyRm /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/lodash is being purged
+475 verbose gentlyRm don't care about contents; nuking /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/lodash
+476 silly gentlyRm /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/node-imagemagick is being purged from base /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume
+477 verbose gentlyRm don't care about contents; nuking /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/node-imagemagick
+478 verbose tar unpack /Users/andreas/.npm/gm/1.14.2/package.tgz
+479 verbose tar unpacking to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm
+480 silly gentlyRm /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm is being purged
+481 verbose gentlyRm don't care about contents; nuking /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm
+482 silly gunzTarPerm modes [ '755', '644' ]
+483 silly gunzTarPerm modes [ '755', '644' ]
+484 verbose tar unpack /Users/andreas/.npm/node-imagemagick/0.1.8/package.tgz
+485 verbose tar unpacking to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/node-imagemagick
+486 silly gentlyRm /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/node-imagemagick is being purged
+487 verbose gentlyRm don't care about contents; nuking /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/node-imagemagick
+488 silly gunzTarPerm modes [ '755', '644' ]
+489 silly gunzTarPerm modes [ '755', '644' ]
+490 silly gunzTarPerm extractEntry package.json
+491 silly gunzTarPerm extractEntry README.md
+492 silly gunzTarPerm extractEntry LICENSE.txt
+493 silly gunzTarPerm extractEntry dist/lodash.compat.js
+494 silly gunzTarPerm extractEntry dist/lodash.compat.min.js
+495 silly gunzTarPerm extractEntry package.json
+496 silly gunzTarPerm extractEntry README.md
+497 silly gunzTarPerm extractEntry LICENSE
+498 silly gunzTarPerm extractEntry component.json
+499 silly gunzTarPerm extractEntry lib/async.js
+500 silly gunzTarPerm extractEntry dist/lodash.js
+501 silly gunzTarPerm extractEntry package.json
+502 silly gunzTarPerm extractEntry dist/lodash.min.js
+503 silly gunzTarPerm extractEntry .npmignore
+504 silly gunzTarPerm extractEntry README.md
+505 silly gunzTarPerm extractEntry package.json
+506 silly gunzTarPerm extractEntry dist/lodash.underscore.js
+507 silly gunzTarPerm extractEntry .npmignore
+508 silly gunzTarPerm extractEntry README.md
+509 silly gunzTarPerm extractEntry index.js
+510 silly gunzTarPerm extractEntry index.js
+511 silly gunzTarPerm extractEntry lib/imagemagick.js
+512 silly gunzTarPerm extractEntry dist/lodash.underscore.min.js
+513 silly gunzTarPerm extractEntry .travis.yml
+514 silly gunzTarPerm extractEntry History.md
+515 silly gunzTarPerm extractEntry lib/args.js
+516 silly gunzTarPerm extractEntry lib/command.js
+517 silly gunzTarPerm extractEntry test/identify_test.js
+518 silly gunzTarPerm extractEntry lib/compare.js
+519 silly gunzTarPerm extractEntry lib/convenience.js
+520 silly gunzTarPerm extractEntry test/test-crop.js
+521 silly gunzTarPerm extractEntry test/test.js
+522 silly gunzTarPerm extractEntry test/img.jpg
+523 silly gunzTarPerm extractEntry lib/drawing.js
+524 silly gunzTarPerm extractEntry lib/getters.js
+525 silly gunzTarPerm extractEntry lib/options.js
+526 silly gunzTarPerm extractEntry lib/utils.js
+527 verbose write writing to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/async/package.json
+528 silly gunzTarPerm extractEntry lib/convenience/autoOrient.js
+529 silly gunzTarPerm extractEntry lib/convenience/morph.js
+530 silly gunzTarPerm extractEntry lib/convenience/sepia.js
+531 silly gunzTarPerm extractEntry lib/convenience/thumb.js
+532 silly gunzTarPerm extractEntry Makefile
+533 info preinstall async@0.2.10
+534 verbose readDependencies loading dependencies from /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/async/package.json
+535 verbose readDependencies loading dependencies from /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/async/package.json
+536 silly install resolved []
+537 verbose about to build /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/async
+538 info build /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/async
+539 info linkStuff async@0.2.10
+540 silly linkStuff async@0.2.10 has /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules as its parent node_modules
+541 verbose linkBins async@0.2.10
+542 verbose linkMans async@0.2.10
+543 verbose rebuildBundles async@0.2.10
+544 info install async@0.2.10
+545 info postinstall async@0.2.10
+546 verbose unlock done using /Users/andreas/.npm/_locks/async-8d146f1b8b062e30.lock for /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/async
+547 verbose write writing to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/node-imagemagick/package.json
+548 info preinstall node-imagemagick@0.1.8
+549 verbose readDependencies loading dependencies from /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/node-imagemagick/package.json
+550 verbose readDependencies loading dependencies from /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/node-imagemagick/package.json
+551 verbose write writing to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/lodash/package.json
+552 silly install resolved []
+553 verbose about to build /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/node-imagemagick
+554 info build /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/node-imagemagick
+555 info preinstall lodash@1.0.2
+556 verbose readDependencies loading dependencies from /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/lodash/package.json
+557 info linkStuff node-imagemagick@0.1.8
+558 silly linkStuff node-imagemagick@0.1.8 has /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules as its parent node_modules
+559 verbose readDependencies loading dependencies from /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/lodash/package.json
+560 silly install resolved []
+561 verbose about to build /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/lodash
+562 info build /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/lodash
+563 verbose linkBins node-imagemagick@0.1.8
+564 verbose linkMans node-imagemagick@0.1.8
+565 verbose rebuildBundles node-imagemagick@0.1.8
+566 info install node-imagemagick@0.1.8
+567 info postinstall node-imagemagick@0.1.8
+568 info linkStuff lodash@1.0.2
+569 silly linkStuff lodash@1.0.2 has /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules as its parent node_modules
+570 verbose unlock done using /Users/andreas/.npm/_locks/node-imagemagick-b7f058ccfbdbcb83.lock for /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/node-imagemagick
+571 verbose linkBins lodash@1.0.2
+572 verbose linkMans lodash@1.0.2
+573 verbose rebuildBundles lodash@1.0.2
+574 info install lodash@1.0.2
+575 info postinstall lodash@1.0.2
+576 verbose unlock done using /Users/andreas/.npm/_locks/lodash-ca1c69368715b5c6.lock for /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/lodash
+577 verbose write writing to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/package.json
+578 info preinstall gm@1.14.2
+579 verbose readDependencies loading dependencies from /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/package.json
+580 silly prepareForInstallMany adding debug@0.7.0 from gm dependencies
+581 silly prepareForInstallMany adding array-series@~0.1.0 from gm dependencies
+582 silly prepareForInstallMany adding array-parallel@~0.1.0 from gm dependencies
+583 silly prepareForInstallMany adding stream-to-buffer@~0.0.1 from gm dependencies
+584 silly prepareForInstallMany adding through@~2.3.1 from gm dependencies
+585 verbose readDependencies loading dependencies from /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/package.json
+586 silly cache add args [ 'debug@0.7.0', null ]
+587 verbose cache add spec debug@0.7.0
+588 silly cache add args [ 'array-series@~0.1.0', null ]
+589 verbose cache add spec array-series@~0.1.0
+590 silly cache add parsed spec Result {
+590 silly cache add   raw: 'debug@0.7.0',
+590 silly cache add   scope: null,
+590 silly cache add   name: 'debug',
+590 silly cache add   rawSpec: '0.7.0',
+590 silly cache add   spec: '0.7.0',
+590 silly cache add   type: 'version' }
+591 silly addNamed debug@0.7.0
+592 verbose addNamed "0.7.0" is a plain semver version for debug
+593 silly mapToRegistry name debug
+594 silly mapToRegistry using default registry
+595 silly mapToRegistry registry https://registry.npmjs.org/
+596 silly mapToRegistry uri https://registry.npmjs.org/debug
+597 verbose addNameVersion registry:https://registry.npmjs.org/debug not in flight; fetching
+598 silly cache add parsed spec Result {
+598 silly cache add   raw: 'array-series@~0.1.0',
+598 silly cache add   scope: null,
+598 silly cache add   name: 'array-series',
+598 silly cache add   rawSpec: '~0.1.0',
+598 silly cache add   spec: '>=0.1.0 <0.2.0',
+598 silly cache add   type: 'range' }
+599 silly addNamed array-series@>=0.1.0 <0.2.0
+600 verbose addNamed ">=0.1.0 <0.2.0" is a valid semver range for array-series
+601 silly addNameRange { name: 'array-series', range: '>=0.1.0 <0.2.0', hasData: false }
+602 silly mapToRegistry name array-series
+603 silly mapToRegistry using default registry
+604 silly mapToRegistry registry https://registry.npmjs.org/
+605 silly mapToRegistry uri https://registry.npmjs.org/array-series
+606 verbose addNameRange registry:https://registry.npmjs.org/array-series not in flight; fetching
+607 silly cache add args [ 'array-parallel@~0.1.0', null ]
+608 verbose cache add spec array-parallel@~0.1.0
+609 silly cache add parsed spec Result {
+609 silly cache add   raw: 'array-parallel@~0.1.0',
+609 silly cache add   scope: null,
+609 silly cache add   name: 'array-parallel',
+609 silly cache add   rawSpec: '~0.1.0',
+609 silly cache add   spec: '>=0.1.0 <0.2.0',
+609 silly cache add   type: 'range' }
+610 silly addNamed array-parallel@>=0.1.0 <0.2.0
+611 verbose addNamed ">=0.1.0 <0.2.0" is a valid semver range for array-parallel
+612 silly addNameRange { name: 'array-parallel',
+612 silly addNameRange   range: '>=0.1.0 <0.2.0',
+612 silly addNameRange   hasData: false }
+613 silly mapToRegistry name array-parallel
+614 silly mapToRegistry using default registry
+615 silly mapToRegistry registry https://registry.npmjs.org/
+616 silly mapToRegistry uri https://registry.npmjs.org/array-parallel
+617 verbose addNameRange registry:https://registry.npmjs.org/array-parallel not in flight; fetching
+618 silly cache add args [ 'stream-to-buffer@~0.0.1', null ]
+619 verbose cache add spec stream-to-buffer@~0.0.1
+620 silly cache add parsed spec Result {
+620 silly cache add   raw: 'stream-to-buffer@~0.0.1',
+620 silly cache add   scope: null,
+620 silly cache add   name: 'stream-to-buffer',
+620 silly cache add   rawSpec: '~0.0.1',
+620 silly cache add   spec: '>=0.0.1 <0.1.0',
+620 silly cache add   type: 'range' }
+621 silly addNamed stream-to-buffer@>=0.0.1 <0.1.0
+622 verbose addNamed ">=0.0.1 <0.1.0" is a valid semver range for stream-to-buffer
+623 silly addNameRange { name: 'stream-to-buffer',
+623 silly addNameRange   range: '>=0.0.1 <0.1.0',
+623 silly addNameRange   hasData: false }
+624 silly mapToRegistry name stream-to-buffer
+625 silly mapToRegistry using default registry
+626 silly mapToRegistry registry https://registry.npmjs.org/
+627 silly mapToRegistry uri https://registry.npmjs.org/stream-to-buffer
+628 verbose addNameRange registry:https://registry.npmjs.org/stream-to-buffer not in flight; fetching
+629 silly cache add args [ 'through@~2.3.1', null ]
+630 verbose cache add spec through@~2.3.1
+631 silly cache add parsed spec Result {
+631 silly cache add   raw: 'through@~2.3.1',
+631 silly cache add   scope: null,
+631 silly cache add   name: 'through',
+631 silly cache add   rawSpec: '~2.3.1',
+631 silly cache add   spec: '>=2.3.1 <2.4.0',
+631 silly cache add   type: 'range' }
+632 silly addNamed through@>=2.3.1 <2.4.0
+633 verbose addNamed ">=2.3.1 <2.4.0" is a valid semver range for through
+634 silly addNameRange { name: 'through', range: '>=2.3.1 <2.4.0', hasData: false }
+635 silly mapToRegistry name through
+636 silly mapToRegistry using default registry
+637 silly mapToRegistry registry https://registry.npmjs.org/
+638 silly mapToRegistry uri https://registry.npmjs.org/through
+639 verbose addNameRange registry:https://registry.npmjs.org/through not in flight; fetching
+640 verbose request uri https://registry.npmjs.org/stream-to-buffer
+641 verbose request no auth needed
+642 info attempt registry request try #1 at 14:24:19
+643 verbose etag "2NUOXJBBKYRRM758HTEEKA6U7"
+644 http request GET https://registry.npmjs.org/stream-to-buffer
+645 verbose request uri https://registry.npmjs.org/array-series
+646 verbose request no auth needed
+647 info attempt registry request try #1 at 14:24:19
+648 verbose etag "EZ0MCIL9WDO0168KE99KNVBTA"
+649 http request GET https://registry.npmjs.org/array-series
+650 verbose request uri https://registry.npmjs.org/array-parallel
+651 verbose request no auth needed
+652 info attempt registry request try #1 at 14:24:19
+653 verbose etag "9PIEWZVEKP1812XZRSN0QOIHL"
+654 http request GET https://registry.npmjs.org/array-parallel
+655 verbose request uri https://registry.npmjs.org/debug
+656 verbose request no auth needed
+657 info attempt registry request try #1 at 14:24:19
+658 verbose etag "6UE7LP1DIMFTCHBCCLMYQ1OKS"
+659 http request GET https://registry.npmjs.org/debug
+660 verbose request uri https://registry.npmjs.org/through
+661 verbose request no auth needed
+662 info attempt registry request try #1 at 14:24:19
+663 verbose etag "3OQAPM245BT6G1TW55EK7N7LX"
+664 http request GET https://registry.npmjs.org/through
+665 http 304 https://registry.npmjs.org/stream-to-buffer
+666 silly get cb [ 304,
+666 silly get   { date: 'Mon, 28 Sep 2015 12:24:19 GMT',
+666 silly get     via: '1.1 varnish',
+666 silly get     'cache-control': 'max-age=60',
+666 silly get     etag: '"2NUOXJBBKYRRM758HTEEKA6U7"',
+666 silly get     age: '55',
+666 silly get     connection: 'keep-alive',
+666 silly get     'x-served-by': 'cache-lhr6327-LHR',
+666 silly get     'x-cache': 'HIT',
+666 silly get     'x-cache-hits': '1',
+666 silly get     'x-timer': 'S1443443059.374444,VS0,VE0',
+666 silly get     vary: 'Accept' } ]
+667 verbose etag https://registry.npmjs.org/stream-to-buffer from cache
+668 verbose get saving stream-to-buffer to /Users/andreas/.npm/registry.npmjs.org/stream-to-buffer/.cache.json
+669 http 304 https://registry.npmjs.org/debug
+670 silly get cb [ 304,
+670 silly get   { date: 'Mon, 28 Sep 2015 12:24:19 GMT',
+670 silly get     via: '1.1 varnish',
+670 silly get     'cache-control': 'max-age=60',
+670 silly get     etag: '"6UE7LP1DIMFTCHBCCLMYQ1OKS"',
+670 silly get     age: '34',
+670 silly get     connection: 'keep-alive',
+670 silly get     'x-served-by': 'cache-lhr6334-LHR',
+670 silly get     'x-cache': 'HIT',
+670 silly get     'x-cache-hits': '5',
+670 silly get     'x-timer': 'S1443443059.374803,VS0,VE0',
+670 silly get     vary: 'Accept' } ]
+671 verbose etag https://registry.npmjs.org/debug from cache
+672 verbose get saving debug to /Users/andreas/.npm/registry.npmjs.org/debug/.cache.json
+673 http 304 https://registry.npmjs.org/array-series
+674 silly get cb [ 304,
+674 silly get   { date: 'Mon, 28 Sep 2015 12:24:19 GMT',
+674 silly get     via: '1.1 varnish',
+674 silly get     'cache-control': 'max-age=60',
+674 silly get     etag: '"EZ0MCIL9WDO0168KE99KNVBTA"',
+674 silly get     age: '55',
+674 silly get     connection: 'keep-alive',
+674 silly get     'x-served-by': 'cache-lhr6327-LHR',
+674 silly get     'x-cache': 'HIT',
+674 silly get     'x-cache-hits': '1',
+674 silly get     'x-timer': 'S1443443059.373172,VS0,VE1',
+674 silly get     vary: 'Accept' } ]
+675 verbose etag https://registry.npmjs.org/array-series from cache
+676 verbose get saving array-series to /Users/andreas/.npm/registry.npmjs.org/array-series/.cache.json
+677 silly addNameRange number 2 { name: 'stream-to-buffer',
+677 silly addNameRange   range: '>=0.0.1 <0.1.0',
+677 silly addNameRange   hasData: true }
+678 silly addNameRange versions [ 'stream-to-buffer', [ '0.0.1', '0.1.0' ] ]
+679 silly addNamed stream-to-buffer@0.0.1
+680 verbose addNamed "0.0.1" is a plain semver version for stream-to-buffer
+681 http 304 https://registry.npmjs.org/through
+682 silly get cb [ 304,
+682 silly get   { date: 'Mon, 28 Sep 2015 12:24:19 GMT',
+682 silly get     via: '1.1 varnish',
+682 silly get     'cache-control': 'max-age=60',
+682 silly get     etag: '"3OQAPM245BT6G1TW55EK7N7LX"',
+682 silly get     age: '19',
+682 silly get     connection: 'keep-alive',
+682 silly get     'x-served-by': 'cache-lhr6328-LHR',
+682 silly get     'x-cache': 'HIT',
+682 silly get     'x-cache-hits': '1',
+682 silly get     'x-timer': 'S1443443059.386587,VS0,VE2',
+682 silly get     vary: 'Accept' } ]
+683 verbose etag https://registry.npmjs.org/through from cache
+684 verbose get saving through to /Users/andreas/.npm/registry.npmjs.org/through/.cache.json
+685 silly addNameRange number 2 { name: 'array-series', range: '>=0.1.0 <0.2.0', hasData: true }
+686 silly addNameRange versions [ 'array-series',
+686 silly addNameRange   [ '0.0.1', '0.1.0', '0.1.1', '0.1.2', '0.1.3', '0.1.4', '0.1.5' ] ]
+687 silly addNamed array-series@0.1.5
+688 verbose addNamed "0.1.5" is a plain semver version for array-series
+689 silly cache afterAdd array-series@0.1.5
+690 verbose afterAdd /Users/andreas/.npm/array-series/0.1.5/package/package.json not in flight; writing
+691 silly cache afterAdd stream-to-buffer@0.0.1
+692 verbose afterAdd /Users/andreas/.npm/stream-to-buffer/0.0.1/package/package.json not in flight; writing
+693 silly cache afterAdd debug@0.7.0
+694 verbose afterAdd /Users/andreas/.npm/debug/0.7.0/package/package.json not in flight; writing
+695 silly addNameRange number 2 { name: 'through', range: '>=2.3.1 <2.4.0', hasData: true }
+696 silly addNameRange versions [ 'through',
+696 silly addNameRange   [ '0.0.1',
+696 silly addNameRange     '0.0.2',
+696 silly addNameRange     '0.0.3',
+696 silly addNameRange     '0.0.4',
+696 silly addNameRange     '0.1.0',
+696 silly addNameRange     '0.1.1',
+696 silly addNameRange     '0.1.2',
+696 silly addNameRange     '0.1.3',
+696 silly addNameRange     '0.1.4',
+696 silly addNameRange     '1.0.0',
+696 silly addNameRange     '1.1.0',
+696 silly addNameRange     '1.1.1',
+696 silly addNameRange     '1.1.2',
+696 silly addNameRange     '2.0.0',
+696 silly addNameRange     '2.1.0',
+696 silly addNameRange     '2.2.0',
+696 silly addNameRange     '2.2.1',
+696 silly addNameRange     '2.2.2',
+696 silly addNameRange     '2.2.4',
+696 silly addNameRange     '2.2.5',
+696 silly addNameRange     '2.2.6',
+696 silly addNameRange     '2.2.7',
+696 silly addNameRange     '2.3.1',
+696 silly addNameRange     '2.3.2',
+696 silly addNameRange     '2.3.3',
+696 silly addNameRange     '2.3.4',
+696 silly addNameRange     '2.3.6',
+696 silly addNameRange     '2.3.7',
+696 silly addNameRange     '2.3.8' ] ]
+697 silly addNamed through@2.3.8
+698 verbose addNamed "2.3.8" is a plain semver version for through
+699 verbose afterAdd /Users/andreas/.npm/stream-to-buffer/0.0.1/package/package.json written
+700 verbose afterAdd /Users/andreas/.npm/array-series/0.1.5/package/package.json written
+701 verbose afterAdd /Users/andreas/.npm/debug/0.7.0/package/package.json written
+702 silly cache afterAdd through@2.3.8
+703 verbose afterAdd /Users/andreas/.npm/through/2.3.8/package/package.json not in flight; writing
+704 verbose afterAdd /Users/andreas/.npm/through/2.3.8/package/package.json written
+705 http 304 https://registry.npmjs.org/array-parallel
+706 silly get cb [ 304,
+706 silly get   { date: 'Mon, 28 Sep 2015 12:24:19 GMT',
+706 silly get     via: '1.1 varnish',
+706 silly get     'cache-control': 'max-age=60',
+706 silly get     etag: '"9PIEWZVEKP1812XZRSN0QOIHL"',
+706 silly get     age: '0',
+706 silly get     connection: 'keep-alive',
+706 silly get     'x-served-by': 'cache-lhr6335-LHR',
+706 silly get     'x-cache': 'HIT',
+706 silly get     'x-cache-hits': '1',
+706 silly get     'x-timer': 'S1443443059.374126,VS0,VE88',
+706 silly get     vary: 'Accept' } ]
+707 verbose etag https://registry.npmjs.org/array-parallel from cache
+708 verbose get saving array-parallel to /Users/andreas/.npm/registry.npmjs.org/array-parallel/.cache.json
+709 silly addNameRange number 2 { name: 'array-parallel',
+709 silly addNameRange   range: '>=0.1.0 <0.2.0',
+709 silly addNameRange   hasData: true }
+710 silly addNameRange versions [ 'array-parallel',
+710 silly addNameRange   [ '0.0.1', '0.1.0', '0.1.1', '0.1.2', '0.1.3' ] ]
+711 silly addNamed array-parallel@0.1.3
+712 verbose addNamed "0.1.3" is a plain semver version for array-parallel
+713 silly cache afterAdd array-parallel@0.1.3
+714 verbose afterAdd /Users/andreas/.npm/array-parallel/0.1.3/package/package.json not in flight; writing
+715 verbose afterAdd /Users/andreas/.npm/array-parallel/0.1.3/package/package.json written
+716 silly install resolved [ { name: 'stream-to-buffer',
+716 silly install resolved     description: 'Concatenate a readable stream\'s data into a single buffer',
+716 silly install resolved     version: '0.0.1',
+716 silly install resolved     author:
+716 silly install resolved      { name: 'Jonathan Ong',
+716 silly install resolved        email: 'me@jongleberry.com',
+716 silly install resolved        url: 'http://jongleberry.com' },
+716 silly install resolved     repository:
+716 silly install resolved      { type: 'git',
+716 silly install resolved        url: 'git+https://github.com/jonathanong/stream-to-buffer.git' },
+716 silly install resolved     bugs:
+716 silly install resolved      { url: 'https://github.com/jonathanong/stream-to-buffer/issues',
+716 silly install resolved        email: 'me@jongleberry.com' },
+716 silly install resolved     license: 'MIT',
+716 silly install resolved     engines: { node: '>= 0.8' },
+716 silly install resolved     readme: '# Stream to Buffer\n\nConcatenate a readable stream\'s data into a single buffer\n\n## API\n\n```js\nvar streamToBuffer = require(\'stream-to-buffer\')\n\nvar stream = // Some readable stream\n\nstreamToBuffer(stream, function (err, buffer) {\n  \n})\n```\n\n## License\n\nThe MIT License (MIT)\n\nCopyright (c) 2013 Jonathan Ong me@jongleberry.com\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the "Software"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.',
+716 silly install resolved     readmeFilename: 'README.md',
+716 silly install resolved     _id: 'stream-to-buffer@0.0.1',
+716 silly install resolved     dist:
+716 silly install resolved      { shasum: 'ab483d59a1ca71832de379a255f465b665af45c1',
+716 silly install resolved        tarball: 'http://registry.npmjs.org/stream-to-buffer/-/stream-to-buffer-0.0.1.tgz' },
+716 silly install resolved     _from: 'stream-to-buffer@>=0.0.1 <0.1.0',
+716 silly install resolved     _npmVersion: '1.2.24',
+716 silly install resolved     _npmUser: { name: 'jongleberry', email: 'jonathanrichardong@gmail.com' },
+716 silly install resolved     maintainers: [ [Object] ],
+716 silly install resolved     directories: {},
+716 silly install resolved     _shasum: 'ab483d59a1ca71832de379a255f465b665af45c1',
+716 silly install resolved     _resolved: 'https://registry.npmjs.org/stream-to-buffer/-/stream-to-buffer-0.0.1.tgz',
+716 silly install resolved     homepage: 'https://github.com/jonathanong/stream-to-buffer#readme' },
+716 silly install resolved   { name: 'array-series',
+716 silly install resolved     description: 'Call an array of asynchronous functions in series',
+716 silly install resolved     version: '0.1.5',
+716 silly install resolved     scripts: { test: 'node test' },
+716 silly install resolved     author:
+716 silly install resolved      { name: 'Jonathan Ong',
+716 silly install resolved        email: 'me@jongleberry.com',
+716 silly install resolved        url: 'http://jongleberry.com' },
+716 silly install resolved     repository:
+716 silly install resolved      { type: 'git',
+716 silly install resolved        url: 'git+https://github.com/component/array-series.git' },
+716 silly install resolved     bugs:
+716 silly install resolved      { url: 'https://github.com/component/array-series/issues',
+716 silly install resolved        email: 'me@jongleberry.com' },
+716 silly install resolved     license: 'MIT',
+716 silly install resolved     homepage: 'https://github.com/component/array-series',
+716 silly install resolved     _id: 'array-series@0.1.5',
+716 silly install resolved     dist:
+716 silly install resolved      { shasum: 'df5d37bfc5c2ef0755e2aa4f92feae7d4b5a972f',
+716 silly install resolved        tarball: 'http://registry.npmjs.org/array-series/-/array-series-0.1.5.tgz' },
+716 silly install resolved     _from: 'array-series@>=0.1.0 <0.2.0',
+716 silly install resolved     _npmVersion: '1.3.17',
+716 silly install resolved     _npmUser: { name: 'jongleberry', email: 'jonathanrichardong@gmail.com' },
+716 silly install resolved     maintainers: [ [Object] ],
+716 silly install resolved     directories: {},
+716 silly install resolved     _shasum: 'df5d37bfc5c2ef0755e2aa4f92feae7d4b5a972f',
+716 silly install resolved     _resolved: 'https://registry.npmjs.org/array-series/-/array-series-0.1.5.tgz',
+716 silly install resolved     readme: 'ERROR: No README data found!' },
+716 silly install resolved   { name: 'debug',
+716 silly install resolved     version: '0.7.0',
+716 silly install resolved     description: 'small debugging utility',
+716 silly install resolved     keywords: [ 'debug', 'log', 'debugger' ],
+716 silly install resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+716 silly install resolved     dependencies: {},
+716 silly install resolved     devDependencies: { mocha: '*' },
+716 silly install resolved     main: 'index',
+716 silly install resolved     browserify: 'debug.component.js',
+716 silly install resolved     engines: { node: '*' },
+716 silly install resolved     component: { scripts: [Object] },
+716 silly install resolved     _id: 'debug@0.7.0',
+716 silly install resolved     dist:
+716 silly install resolved      { shasum: 'f5be05ec0434c992d79940e50b2695cfb2e01b08',
+716 silly install resolved        tarball: 'http://registry.npmjs.org/debug/-/debug-0.7.0.tgz' },
+716 silly install resolved     maintainers: [ [Object] ],
+716 silly install resolved     directories: {},
+716 silly install resolved     _shasum: 'f5be05ec0434c992d79940e50b2695cfb2e01b08',
+716 silly install resolved     _resolved: 'https://registry.npmjs.org/debug/-/debug-0.7.0.tgz',
+716 silly install resolved     _from: 'debug@0.7.0',
+716 silly install resolved     readme: 'ERROR: No README data found!' },
+716 silly install resolved   { name: 'through',
+716 silly install resolved     version: '2.3.8',
+716 silly install resolved     description: 'simplified stream construction',
+716 silly install resolved     main: 'index.js',
+716 silly install resolved     scripts: { test: 'set -e; for t in test/*.js; do node $t; done' },
+716 silly install resolved     devDependencies: { 'stream-spec': '~0.3.5', tape: '~2.3.2', from: '~0.1.3' },
+716 silly install resolved     keywords: [ 'stream', 'streams', 'user-streams', 'pipe' ],
+716 silly install resolved     author:
+716 silly install resolved      { name: 'Dominic Tarr',
+716 silly install resolved        email: 'dominic.tarr@gmail.com',
+716 silly install resolved        url: 'dominictarr.com' },
+716 silly install resolved     license: 'MIT',
+716 silly install resolved     repository:
+716 silly install resolved      { type: 'git',
+716 silly install resolved        url: 'git+https://github.com/dominictarr/through.git' },
+716 silly install resolved     homepage: 'https://github.com/dominictarr/through',
+716 silly install resolved     testling: { browsers: [Object], files: 'test/*.js' },
+716 silly install resolved     gitHead: '2c5a6f9a0cc54da759b6e10964f2081c358e49dc',
+716 silly install resolved     bugs: { url: 'https://github.com/dominictarr/through/issues' },
+716 silly install resolved     _id: 'through@2.3.8',
+716 silly install resolved     _shasum: '0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5',
+716 silly install resolved     _from: 'through@>=2.3.1 <2.4.0',
+716 silly install resolved     _npmVersion: '2.12.0',
+716 silly install resolved     _nodeVersion: '2.3.1',
+716 silly install resolved     _npmUser: { name: 'dominictarr', email: 'dominic.tarr@gmail.com' },
+716 silly install resolved     maintainers: [ [Object] ],
+716 silly install resolved     dist:
+716 silly install resolved      { shasum: '0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5',
+716 silly install resolved        tarball: 'http://registry.npmjs.org/through/-/through-2.3.8.tgz' },
+716 silly install resolved     directories: {},
+716 silly install resolved     _resolved: 'https://registry.npmjs.org/through/-/through-2.3.8.tgz',
+716 silly install resolved     readme: 'ERROR: No README data found!' },
+716 silly install resolved   { name: 'array-parallel',
+716 silly install resolved     description: 'Call an array of asynchronous functions in parallel',
+716 silly install resolved     version: '0.1.3',
+716 silly install resolved     scripts: { test: 'node test' },
+716 silly install resolved     author:
+716 silly install resolved      { name: 'Jonathan Ong',
+716 silly install resolved        email: 'me@jongleberry.com',
+716 silly install resolved        url: 'http://jongleberry.com' },
+716 silly install resolved     repository:
+716 silly install resolved      { type: 'git',
+716 silly install resolved        url: 'git+https://github.com/component/array-parallel.git' },
+716 silly install resolved     bugs:
+716 silly install resolved      { url: 'https://github.com/component/array-parallel/issues',
+716 silly install resolved        email: 'me@jongleberry.com' },
+716 silly install resolved     license: 'MIT',
+716 silly install resolved     homepage: 'https://github.com/component/array-parallel',
+716 silly install resolved     _id: 'array-parallel@0.1.3',
+716 silly install resolved     dist:
+716 silly install resolved      { shasum: '8f785308926ed5aa478c47e64d1b334b6c0c947d',
+716 silly install resolved        tarball: 'http://registry.npmjs.org/array-parallel/-/array-parallel-0.1.3.tgz' },
+716 silly install resolved     _from: 'array-parallel@>=0.1.0 <0.2.0',
+716 silly install resolved     _npmVersion: '1.3.17',
+716 silly install resolved     _npmUser: { name: 'jongleberry', email: 'jonathanrichardong@gmail.com' },
+716 silly install resolved     maintainers: [ [Object] ],
+716 silly install resolved     directories: {},
+716 silly install resolved     _shasum: '8f785308926ed5aa478c47e64d1b334b6c0c947d',
+716 silly install resolved     _resolved: 'https://registry.npmjs.org/array-parallel/-/array-parallel-0.1.3.tgz',
+716 silly install resolved     readme: 'ERROR: No README data found!' } ]
+717 info install stream-to-buffer@0.0.1 into /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm
+718 info install array-series@0.1.5 into /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm
+719 info install debug@0.7.0 into /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm
+720 info install through@2.3.8 into /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm
+721 info install array-parallel@0.1.3 into /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm
+722 info installOne stream-to-buffer@0.0.1
+723 verbose installOne of stream-to-buffer to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm not in flight; installing
+724 info installOne array-series@0.1.5
+725 verbose installOne of array-series to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm not in flight; installing
+726 info installOne debug@0.7.0
+727 verbose installOne of debug to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm not in flight; installing
+728 info installOne through@2.3.8
+729 verbose installOne of through to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm not in flight; installing
+730 info installOne array-parallel@0.1.3
+731 verbose installOne of array-parallel to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm not in flight; installing
+732 verbose lock using /Users/andreas/.npm/_locks/stream-to-buffer-7c7bea9e814d1903.lock for /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/stream-to-buffer
+733 verbose lock using /Users/andreas/.npm/_locks/array-series-00e19e724ca14e0b.lock for /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/array-series
+734 verbose lock using /Users/andreas/.npm/_locks/debug-a09b629ccf8eeea9.lock for /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/debug
+735 verbose lock using /Users/andreas/.npm/_locks/through-287e4d01ac6712e5.lock for /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/through
+736 silly install write writing stream-to-buffer 0.0.1 to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/stream-to-buffer
+737 silly install write writing array-series 0.1.5 to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/array-series
+738 silly install write writing debug 0.7.0 to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/debug
+739 silly install write writing through 2.3.8 to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/through
+740 verbose lock using /Users/andreas/.npm/_locks/array-parallel-64a82bb7911a4f0d.lock for /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/array-parallel
+741 silly install write writing array-parallel 0.1.3 to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/array-parallel
+742 verbose unbuild node_modules/grunt-responsive-images/node_modules/gm/node_modules/stream-to-buffer
+743 verbose unbuild node_modules/grunt-responsive-images/node_modules/gm/node_modules/array-series
+744 verbose unbuild node_modules/grunt-responsive-images/node_modules/gm/node_modules/debug
+745 verbose unbuild node_modules/grunt-responsive-images/node_modules/gm/node_modules/through
+746 verbose unbuild node_modules/grunt-responsive-images/node_modules/gm/node_modules/array-parallel
+747 silly gentlyRm /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/stream-to-buffer is being purged from base /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume
+748 verbose gentlyRm don't care about contents; nuking /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/stream-to-buffer
+749 silly gentlyRm /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/array-series is being purged from base /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume
+750 verbose gentlyRm don't care about contents; nuking /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/array-series
+751 silly gentlyRm /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/debug is being purged from base /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume
+752 verbose gentlyRm don't care about contents; nuking /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/debug
+753 silly gentlyRm /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/through is being purged from base /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume
+754 verbose gentlyRm don't care about contents; nuking /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/through
+755 verbose tar unpack /Users/andreas/.npm/stream-to-buffer/0.0.1/package.tgz
+756 verbose tar unpacking to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/stream-to-buffer
+757 silly gentlyRm /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/stream-to-buffer is being purged
+758 verbose gentlyRm don't care about contents; nuking /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/stream-to-buffer
+759 verbose tar unpack /Users/andreas/.npm/array-series/0.1.5/package.tgz
+760 verbose tar unpacking to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/array-series
+761 silly gentlyRm /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/array-series is being purged
+762 verbose gentlyRm don't care about contents; nuking /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/array-series
+763 verbose tar unpack /Users/andreas/.npm/debug/0.7.0/package.tgz
+764 verbose tar unpacking to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/debug
+765 silly gentlyRm /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/debug is being purged
+766 verbose gentlyRm don't care about contents; nuking /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/debug
+767 verbose tar unpack /Users/andreas/.npm/through/2.3.8/package.tgz
+768 verbose tar unpacking to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/through
+769 silly gentlyRm /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/through is being purged
+770 verbose gentlyRm don't care about contents; nuking /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/through
+771 silly gentlyRm /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/array-parallel is being purged from base /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume
+772 verbose gentlyRm don't care about contents; nuking /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/array-parallel
+773 silly gunzTarPerm modes [ '755', '644' ]
+774 silly gunzTarPerm modes [ '755', '644' ]
+775 silly gunzTarPerm modes [ '755', '644' ]
+776 silly gunzTarPerm modes [ '755', '644' ]
+777 verbose tar unpack /Users/andreas/.npm/array-parallel/0.1.3/package.tgz
+778 verbose tar unpacking to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/array-parallel
+779 silly gentlyRm /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/array-parallel is being purged
+780 verbose gentlyRm don't care about contents; nuking /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/array-parallel
+781 silly gunzTarPerm modes [ '755', '644' ]
+782 silly gunzTarPerm extractEntry package.json
+783 silly gunzTarPerm extractEntry package.json
+784 silly gunzTarPerm extractEntry package.json
+785 silly gunzTarPerm extractEntry .npmignore
+786 silly gunzTarPerm extractEntry README.md
+787 silly gunzTarPerm extractEntry .npmignore
+788 silly gunzTarPerm extractEntry README.md
+789 silly gunzTarPerm extractEntry .npmignore
+790 silly gunzTarPerm extractEntry README.md
+791 silly gunzTarPerm extractEntry index.js
+792 silly gunzTarPerm extractEntry index.js
+793 silly gunzTarPerm extractEntry test.js
+794 silly gunzTarPerm extractEntry index.js
+795 silly gunzTarPerm extractEntry test.js
+796 silly gunzTarPerm extractEntry .travis.yml
+797 silly gunzTarPerm extractEntry component.json
+798 silly gunzTarPerm extractEntry .travis.yml
+799 silly gunzTarPerm extractEntry component.json
+800 silly gunzTarPerm extractEntry package.json
+801 silly gunzTarPerm extractEntry package.json
+802 silly gunzTarPerm extractEntry .npmignore
+803 silly gunzTarPerm extractEntry debug.js
+804 silly gunzTarPerm extractEntry index.js
+805 silly gunzTarPerm extractEntry .travis.yml
+806 silly gunzTarPerm extractEntry head.js
+807 silly gunzTarPerm extractEntry debug.component.js
+808 silly gunzTarPerm extractEntry LICENSE.APACHE2
+809 silly gunzTarPerm extractEntry LICENSE.MIT
+810 verbose write writing to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/stream-to-buffer/package.json
+811 info preinstall stream-to-buffer@0.0.1
+812 silly gunzTarPerm extractEntry tail.js
+813 silly gunzTarPerm extractEntry index.js
+814 verbose readDependencies loading dependencies from /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/stream-to-buffer/package.json
+815 silly gunzTarPerm extractEntry readme.markdown
+816 silly gunzTarPerm extractEntry test/async.js
+817 verbose readDependencies loading dependencies from /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/stream-to-buffer/package.json
+818 silly gunzTarPerm extractEntry History.md
+819 silly gunzTarPerm extractEntry lib/debug.js
+820 silly gunzTarPerm extractEntry test/auto-destroy.js
+821 silly gunzTarPerm extractEntry test/buffering.js
+822 silly install resolved []
+823 verbose about to build /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/stream-to-buffer
+824 info build /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/stream-to-buffer
+825 silly gunzTarPerm extractEntry Makefile
+826 info linkStuff stream-to-buffer@0.0.1
+827 silly linkStuff stream-to-buffer@0.0.1 has /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules as its parent node_modules
+828 verbose write writing to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/array-series/package.json
+829 silly gunzTarPerm extractEntry test/end.js
+830 info preinstall array-series@0.1.5
+831 verbose write writing to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/array-parallel/package.json
+832 verbose readDependencies loading dependencies from /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/array-series/package.json
+833 silly gunzTarPerm extractEntry example/app.js
+834 silly gunzTarPerm extractEntry example/wildcards.js
+835 silly gunzTarPerm extractEntry test/index.js
+836 verbose linkBins stream-to-buffer@0.0.1
+837 verbose linkMans stream-to-buffer@0.0.1
+838 verbose rebuildBundles stream-to-buffer@0.0.1
+839 info preinstall array-parallel@0.1.3
+840 info install stream-to-buffer@0.0.1
+841 verbose readDependencies loading dependencies from /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/array-series/package.json
+842 verbose readDependencies loading dependencies from /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/array-parallel/package.json
+843 info postinstall stream-to-buffer@0.0.1
+844 silly gunzTarPerm extractEntry example/worker.js
+845 silly gunzTarPerm extractEntry example/browser.html
+846 verbose unlock done using /Users/andreas/.npm/_locks/stream-to-buffer-7c7bea9e814d1903.lock for /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/stream-to-buffer
+847 silly install resolved []
+848 verbose about to build /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/array-series
+849 info build /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/array-series
+850 verbose readDependencies loading dependencies from /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/array-parallel/package.json
+851 silly gunzTarPerm extractEntry Readme.md
+852 info linkStuff array-series@0.1.5
+853 silly linkStuff array-series@0.1.5 has /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules as its parent node_modules
+854 silly install resolved []
+855 verbose about to build /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/array-parallel
+856 info build /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/array-parallel
+857 info linkStuff array-parallel@0.1.3
+858 silly linkStuff array-parallel@0.1.3 has /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules as its parent node_modules
+859 verbose linkBins array-series@0.1.5
+860 verbose linkMans array-series@0.1.5
+861 verbose rebuildBundles array-series@0.1.5
+862 info install array-series@0.1.5
+863 info postinstall array-series@0.1.5
+864 verbose linkBins array-parallel@0.1.3
+865 verbose linkMans array-parallel@0.1.3
+866 verbose rebuildBundles array-parallel@0.1.3
+867 verbose unlock done using /Users/andreas/.npm/_locks/array-series-00e19e724ca14e0b.lock for /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/array-series
+868 info install array-parallel@0.1.3
+869 info postinstall array-parallel@0.1.3
+870 verbose unlock done using /Users/andreas/.npm/_locks/array-parallel-64a82bb7911a4f0d.lock for /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/array-parallel
+871 verbose write writing to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/through/package.json
+872 info preinstall through@2.3.8
+873 verbose readDependencies loading dependencies from /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/through/package.json
+874 verbose readDependencies loading dependencies from /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/through/package.json
+875 silly install resolved []
+876 verbose about to build /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/through
+877 info build /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/through
+878 info linkStuff through@2.3.8
+879 silly linkStuff through@2.3.8 has /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules as its parent node_modules
+880 verbose write writing to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/debug/package.json
+881 verbose linkBins through@2.3.8
+882 verbose linkMans through@2.3.8
+883 verbose rebuildBundles through@2.3.8
+884 info install through@2.3.8
+885 info preinstall debug@0.7.0
+886 info postinstall through@2.3.8
+887 verbose readDependencies loading dependencies from /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/debug/package.json
+888 verbose unlock done using /Users/andreas/.npm/_locks/through-287e4d01ac6712e5.lock for /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/through
+889 verbose readDependencies loading dependencies from /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/debug/package.json
+890 silly install resolved []
+891 verbose about to build /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/debug
+892 info build /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/debug
+893 info linkStuff debug@0.7.0
+894 silly linkStuff debug@0.7.0 has /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules as its parent node_modules
+895 verbose linkBins debug@0.7.0
+896 verbose linkMans debug@0.7.0
+897 verbose rebuildBundles debug@0.7.0
+898 info install debug@0.7.0
+899 info postinstall debug@0.7.0
+900 verbose unlock done using /Users/andreas/.npm/_locks/debug-a09b629ccf8eeea9.lock for /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm/node_modules/debug
+901 verbose about to build /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm
+902 info build /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm
+903 info linkStuff gm@1.14.2
+904 silly linkStuff gm@1.14.2 has /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules as its parent node_modules
+905 verbose linkBins gm@1.14.2
+906 verbose linkMans gm@1.14.2
+907 verbose rebuildBundles gm@1.14.2
+908 verbose rebuildBundles [ 'array-parallel',
+908 verbose rebuildBundles   'array-series',
+908 verbose rebuildBundles   'debug',
+908 verbose rebuildBundles   'stream-to-buffer',
+908 verbose rebuildBundles   'through' ]
+909 info install gm@1.14.2
+910 info postinstall gm@1.14.2
+911 verbose unlock done using /Users/andreas/.npm/_locks/gm-2ab7f483aef1fdfc.lock for /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images/node_modules/gm
+912 verbose about to build /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images
+913 info build /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images
+914 info linkStuff grunt-responsive-images@0.1.6
+915 silly linkStuff grunt-responsive-images@0.1.6 has /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules as its parent node_modules
+916 verbose linkBins grunt-responsive-images@0.1.6
+917 verbose linkMans grunt-responsive-images@0.1.6
+918 verbose rebuildBundles grunt-responsive-images@0.1.6
+919 verbose rebuildBundles [ 'async', 'gm', 'lodash', 'node-imagemagick' ]
+920 info install grunt-responsive-images@0.1.6
+921 info postinstall grunt-responsive-images@0.1.6
+922 verbose unlock done using /Users/andreas/.npm/_locks/grunt-responsive-images-d5526e83a5f8abd6.lock for /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/grunt-responsive-images
+923 info inotify@1.4.0 Failed to exec install script
+924 verbose unlock done using /Users/andreas/.npm/_locks/inotify-fe49f72a7d64ffba.lock for /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/node_modules/inotify
+925 verbose about to build /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev
+926 verbose unlock done using /Users/andreas/.npm/_locks/dev-9d6de69dcad0c10d.lock for /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev
+927 verbose stack Error: inotify@1.4.0 install: `node-gyp rebuild`
+927 verbose stack Exit status 1
+927 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:214:16)
+927 verbose stack     at emitTwo (events.js:87:13)
+927 verbose stack     at EventEmitter.emit (events.js:172:7)
+927 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+927 verbose stack     at emitTwo (events.js:87:13)
+927 verbose stack     at ChildProcess.emit (events.js:172:7)
+927 verbose stack     at maybeClose (internal/child_process.js:817:16)
+927 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+928 verbose pkgid inotify@1.4.0
+929 verbose cwd /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume
+930 error Darwin 14.5.0
+931 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "grunt-responsive-images" "--save" "dev"
+932 error node v4.1.1
+933 error npm  v2.14.4
+934 error code ELIFECYCLE
+935 error inotify@1.4.0 install: `node-gyp rebuild`
+935 error Exit status 1
+936 error Failed at the inotify@1.4.0 install script 'node-gyp rebuild'.
+936 error This is most likely a problem with the inotify package,
+936 error not with npm itself.
+936 error Tell the author that this fails on your system:
+936 error     node-gyp rebuild
+936 error You can get their info via:
+936 error     npm owner ls inotify
+936 error There is likely additional logging output above.
+937 verbose exit [ 1, true ]
+938 verbose unbuild node_modules/dev/node_modules/inotify
+939 info preuninstall inotify@1.4.0
+940 info uninstall inotify@1.4.0
+941 verbose unbuild rmStuff inotify@1.4.0 from /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules
+942 verbose unbuild rmStuff in /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/node_modules
+943 info postuninstall inotify@1.4.0
+944 silly gentlyRm /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/node_modules/inotify is being purged from base /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume
+945 verbose gentlyRm don't care about contents; nuking /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/node_modules/inotify
+946 silly vacuum-fs purging /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/node_modules/inotify
+947 silly vacuum-fs removing /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev/node_modules
+948 silly vacuum-fs quitting because other entries in /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev
+949 verbose unbuild node_modules/dev
+950 info preuninstall dev@0.1.3
+951 info uninstall dev@0.1.3
+952 verbose unbuild rmStuff dev@0.1.3 from /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules
+953 silly gentlyRm /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/.bin/node-dev is being gently removed
+954 silly gentlyRm verifying /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume is an npm working directory
+955 silly gentlyRm containing path /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume is under npm's control, in /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume
+956 silly gentlyRm deletion target /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/.bin/node-dev is under /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume
+957 verbose gentlyRm vacuuming from /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/.bin/node-dev up to /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume
+958 info postuninstall dev@0.1.3
+959 silly gentlyRm /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev is being purged from base /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume
+960 verbose gentlyRm don't care about contents; nuking /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev
+961 silly vacuum-fs purging /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules/dev
+962 silly vacuum-fs quitting because other entries in /Users/andreas/Desktop/coding/FrontEnd/frontend-nanodegree-resume/node_modules
