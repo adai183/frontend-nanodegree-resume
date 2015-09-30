@@ -213,8 +213,8 @@ projects.display = function(){
 
 
 /////////// main /////////////////////////////////////
+$("#mapDiv").append(googleMap);
 bio.display();
 education.display();
 work.display();
 projects.display();
-$("#mapDiv").append(googleMap);
