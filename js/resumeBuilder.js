@@ -1,3 +1,11 @@
+/*
+ resumeBuilder.js
+ contains the JSON with the data to publish
+ and the display methods
+by Andreas Daiminger
+*/
+
+//bio
 var bio = {
 	"name": "Andreas Daiminger",
 	"role": "Front End Developer Apprentice",
@@ -9,7 +17,7 @@ var bio = {
 		"location": "Madrid",
 	},
 	"welcomeMessage": "On my way to become a front end ninja!",
-	"skills": ["Skill1", "Skill2", "Skill3", "Skill4"],
+	"skills": ["HTML", "CSS", "JavaScript", "Python"],
 	"bioPic": "images/biopic.jpg"
 };
 
@@ -24,30 +32,32 @@ bio.display = function(){
 	var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
 	var formattedWelcomeMsg = HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage);
 
+	// header
 	$("#header").prepend(formattedRole);
 	$("#header").prepend(formattedName);
 	$("#header").append(formattedBioPic);
 	$("#header").append(formattedWelcomeMsg);
+	// contacts
 	$("#topContacts").append(formattedMobile);
 	$("#topContacts").append(formattedEmail);
 	$("#topContacts").append(formattedGithub);
 	$("#topContacts").append(formattedTwitter);
 	$("#topContacts").append(formattedLocation);
 
-	$("#header").append(HTMLskillsStart);
-	var formattedSkill = HTMLskills.replace("%data%", bio.skills[0]);
-	$("#skills").append(formattedSkill);
-	formattedSkill = HTMLskills.replace("%data%", bio.skills[1]);
-	$("#skills").append(formattedSkill);
-	formattedSkill = HTMLskills.replace("%data%", bio.skills[2]);
-	$("#skills").append(formattedSkill);
-	formattedSkill = HTMLskills.replace("%data%", bio.skills[3]);
-	$("#skills").append(formattedSkill);
+	// skills
+	if (bio.skills.length > 0) {
+        $("#header").append(HTMLskillsStart);
+        for (skill in bio.skills) {
+            if (bio.skills.hasOwnProperty(skill)) {
+                formattedSkill = HTMLskills.replace("%data%", bio.skills[skill]);
+                $("#skills").append(formattedSkill);
+            }
+        }
+    }
 
 };
 
-
-
+// education
 var education = {
 	"schools": [
 	{
@@ -84,8 +94,10 @@ var education = {
 
 
 education.display = function(){
-	for (school in education.schools) {
-		$("#education:last").append(HTMLschoolStart);
+	if (education.schools.length > 0 || education.onlineCourses.length > 0) {
+        // start the HTML
+        $("#education").append(HTMLschoolStart);
+		for (school in education.schools) {
 
 		var formattedSchoolName = HTMLschoolName.replace("%data%", education.schools[school].name);
 		var formattedSchooolDegree = HTMLschoolDegree.replace("%data%", education.schools[school].degree);
@@ -99,30 +111,29 @@ education.display = function(){
 		$(".education-entry:last").append(formattedSchoolLocation);
 		$(".education-entry:last").append(formattedSchoolMajors);
 	};
+		};
 
+	if (education.schools.length > 0 || education.onlineCourses.length > 0) {
+        // start the HTML
+		$(".education-entry:last").append(HTMLonlineClasses);
 
-	$("#education").append(HTMLonlineClasses);
+		for (onlineCourse in education.onlineCourses) {
+			var formattedonlineTitle = HTMLonlineTitle.replace("%data%", education.onlineCourses[onlineCourse].title);
+			formattedonlineTitle = formattedonlineTitle.replace("#","https://www.udacity.com/");
+			var formattedonlineSchool = HTMLonlineSchool.replace("%data%", education.onlineCourses[onlineCourse].school);
+			var formattedonlineTitleSchool = formattedonlineTitle + formattedonlineSchool;
+			var formattedonlineDates = HTMLonlineDates.replace("%data%", education.onlineCourses[onlineCourse].dates);
+			var formattedonlineURL = HTMLonlineURL.replace("%data%", education.onlineCourses[onlineCourse].url);
+			formattedonlineURL = formattedonlineURL.replace("#", "http://kinetic-silicon-104012.appspot.com/");
 
-	for (onlineCourse in education.onlineCourses) {
-		var formattedonlineTitle = HTMLonlineTitle.replace("%data%", education.onlineCourses[onlineCourse].title);
-		formattedonlineTitle = formattedonlineTitle.replace("#","https://www.udacity.com/");
-		var formattedonlineSchool = HTMLonlineSchool.replace("%data%", education.onlineCourses[onlineCourse].school);
-		var formattedonlineTitleSchool = formattedonlineTitle + formattedonlineSchool;
-		var formattedonlineDates = HTMLonlineDates.replace("%data%", education.onlineCourses[onlineCourse].dates);
-		var formattedonlineURL = HTMLonlineURL.replace("%data%", education.onlineCourses[onlineCourse].url);
-		formattedonlineURL = formattedonlineURL.replace("#", "http://kinetic-silicon-104012.appspot.com/");
-
-		$(".online-entry:last").append(formattedonlineTitleSchool);
-		$(".online-entry:last").append(formattedonlineDates);
-		$(".online-entry:last").append(formattedonlineURL);
-	}
+			$(".education-entry:last").append(formattedonlineTitleSchool);
+			$(".education-entry:last").append(formattedonlineDates);
+			$(".education-entry:last").append(formattedonlineURL);
+		};
+	};
 };
 
-
-
-
-
-
+// work
 var work =  {
 	"jobs": [
 	{
@@ -158,11 +169,7 @@ work.display = function(){
 	}
 };
 
-
-
-
-
-
+// projects
 var projects = {
 	"projects":[
 	{
@@ -205,34 +212,9 @@ projects.display = function(){
 };
 
 
-
-
-
+/////////// main /////////////////////////////////////
 bio.display();
 education.display();
 work.display();
 projects.display();
-
-
-
-
-
-function inName(name) {
-    name = name.trim().split(" ");
-    console.log(name);
-    name[1] = name[1].toUpperCase();
-    name[0] = name[0].slice(0,1).toUpperCase() + name[0].slice(1).toLowerCase();
-    return name[0] + " " + name[1];
-};
-
-$("#main").append(internationalizeButton)
-
-
 $("#mapDiv").append(googleMap);
-
-
-
-
-
-
-
