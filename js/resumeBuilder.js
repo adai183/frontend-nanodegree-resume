@@ -211,9 +211,45 @@ projects.display = function(){
   }
 };
 
+/* Menu Builder: JSON for the menu - the idea is that it allows flexibility in building the menu. However I haven't made provisions for checking the number of elements in the JSON object and how this would affect the look of the object */
+var menu = {
+   "menu": [
+      { 
+         "title": "work",
+         "link": "#workH2"
+      },
+      {
+         "title": "education",
+         "link": "#educationH2"
+      },
+      {
+         "title": "projects",
+         "link": "#projectsH2"
+      },
+      {
+         "title": "map",
+         "link": "#mapDiv"
+      }
+   ]
+};
+
+menu.display = function () {
+    'use strict';
+    var i=0, entry="", toptitle="", y=0;
+    $("nav").append("<ul id=\"navmenu\">");
+    //alert(menu.menu.length);
+    for (i=0; i<menu.menu.length; i=i+1) {
+       //alert(menu.menu[i].type);
+       entry = '<li><a href="'+menu.menu[i].link+'">'+menu.menu[i].title+'</a></li>';
+          // console.log(entry);
+          $("#navmenu:last").append(entry);
+    }
+};
+
 
 /////////// main /////////////////////////////////////
 $("#mapDiv").append(googleMap);
+menu.display();
 bio.display();
 education.display();
 work.display();

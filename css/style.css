@@ -1,28 +1,40 @@
-body,
-div,
-ul,
-li,
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  padding:0;
-  margin:0;
-  font-family: "Roboto", sans-serif;
-}
+* {
+    padding:0.5;
+    margin:0;
+    font-family: 'Lato', sans-serif;
+ }
+
+ nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 5% 10%;
+
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s; 
+ }
+
+
+
+ 
+
 
 .clear-fix {
   overflow: auto;
 }
 
+#role {
+    color: white;
+    margin-left: 20px;
+    text-align: right;
+}
+
 .education-entry,
 .work-entry,
-.online-entry, /* modified to get proper layout*/
 .project-entry {
-  padding: 0 5%;
+  
 }
 
 
@@ -131,7 +143,7 @@ a {
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: #131A2D;
 }
 
 .flex-box {
