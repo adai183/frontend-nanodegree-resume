@@ -21,10 +21,6 @@ nav{
  }
 
 
-
-
-
-
 .clear-fix {
   overflow: auto;
 }
@@ -38,7 +34,7 @@ nav{
 .education-entry,
 .work-entry,
 .project-entry {
-
+    padding: 1%;
 }
 
 
@@ -118,17 +114,11 @@ a {
 }
 
 #skills-h3 {
+  text-align: left;
   color: #2B2301;
   display: none;
 }
 
-.orange {
-  background-color: #2B2301;
-}
-
-.orange-text {
-  color: #2B2301;
-}
 
 .white-text {
   font-weight: bold;
@@ -159,6 +149,17 @@ a {
   padding: 10px;
 }
 
+#skills.flex-box  {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+
+
 .center-content {
   padding: 2.5% 5%;
 }
@@ -175,7 +176,7 @@ ul {
 }
 
 img {
-  padding: 10px;
+  margin: 10px 10px 5px 0;;
 }
 
 span {
@@ -184,7 +185,10 @@ span {
 
 #lets-connect {
   text-align: center;
+  color: ;
 }
+
+
 
 /* Media queries to handle various device widths */
 

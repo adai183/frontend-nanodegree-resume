@@ -177,14 +177,14 @@ var projects = {
 		"dates": "2019 - 2015",
 		"link": "https://www.youtube.com/watch?v=I6LJaKcB-NA",
 		"description": "I danced a lot of Flamenco the last 6 years",
-		"images":["images/flamenco1-800_large_1x.jpg", "images/flamenco2-800_large_1x.jpg"]
+		"images":["images/flamenco1-400_large_1x.jpg", "images/flamenco2-400_large_1x.jpg"]
 	},
 	{
 		"title": "Final project IPND",
 		"dates": "July - September 2015",
 		"link": "http://kinetic-silicon-104012.appspot.com",
 		"description": "This was my first NanoDegree. I learned how to think like a Programmer and gained technological empathy",
-
+        "images":["images/code-400_large_1x.jpg", "images/codebrain-400_large_1x.jpg"]
 	}
 ]};
 
@@ -211,7 +211,7 @@ projects.display = function(){
   }
 };
 
-/* Menu Builder: JSON for the menu - the idea is that it allows flexibility in building the menu. However I haven't made provisions for checking the number of elements in the JSON object and how this would affect the look of the object */
+
 var menu = {
    "menu": [
       {
@@ -234,14 +234,10 @@ var menu = {
 };
 
 menu.display = function () {
-    'use strict';
-    var i=0, entry="", toptitle="", y=0;
-    $("nav").append("<ul id=\"navmenu\">");
-    //alert(menu.menu.length);
-    for (i=0; i<menu.menu.length; i=i+1) {
-       //alert(menu.menu[i].type);
+    var i=0;
+    $("nav").append('<ul id="navmenu"></ul>');
+    for (i=0; i<menu.menu.length; i++) {
        entry = '<li><a href="'+menu.menu[i].link+'">'+menu.menu[i].title+'</a></li>';
-          // console.log(entry);
           $("#navmenu:last").append(entry);
     }
 };
