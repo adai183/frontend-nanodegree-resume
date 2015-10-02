@@ -18,7 +18,7 @@ var bio = {
 	},
 	"welcomeMessage": "On my way to become a front end ninja!",
 	"skills": ["HTML", "CSS", "JavaScript", "Python"],
-	"bioPic": "images/biopic.jpg"
+	"bioPic": "images/hombre_pajaro.jpg"
 };
 
 bio.display = function(){
@@ -214,7 +214,7 @@ projects.display = function(){
 /* Menu Builder: JSON for the menu - the idea is that it allows flexibility in building the menu. However I haven't made provisions for checking the number of elements in the JSON object and how this would affect the look of the object */
 var menu = {
    "menu": [
-      { 
+      {
          "title": "work",
          "link": "#workH2"
       },
