@@ -18,7 +18,7 @@ var bio = {
 	},
 	"welcomeMessage": "On my way to become a front end ninja!",
 	"skills": ["HTML", "CSS", "JavaScript", "Python"],
-	"bioPic": "images/hombre_pajaro.jpg"
+	"bioPic": "images/olafur_eliasson.jpg"
 };
 
 bio.display = function(){
@@ -33,20 +33,25 @@ bio.display = function(){
 	var formattedWelcomeMsg = HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage);
 
 	// header
-	$("#header").prepend(formattedRole);
-	$("#header").prepend(formattedName);
-	$("#header").append(formattedBioPic);
-	$("#header").append(formattedWelcomeMsg);
+    var formattedNameRole = formattedName + formattedRole
+	$("#image").append(formattedBioPic);
+	$("#image").append(formattedNameRole);
+	$("#img-text").append(formattedWelcomeMsg);
 	// contacts
 	$("#topContacts").append(formattedMobile);
 	$("#topContacts").append(formattedEmail);
 	$("#topContacts").append(formattedGithub);
 	$("#topContacts").append(formattedTwitter);
 	$("#topContacts").append(formattedLocation);
-
+    // footer contacts
+    $("#footerContacts").append(formattedMobile);
+	$("#footerContacts").append(formattedEmail);
+	$("#footerContacts").append(formattedGithub);
+	$("#footerContacts").append(formattedTwitter);
+	$("#footerContacts").append(formattedLocation);
 	// skills
 	if (bio.skills.length > 0) {
-        $("#header").append(HTMLskillsStart);
+        $("#header").prepend(HTMLskillsStart);
         for (skill in bio.skills) {
             if (bio.skills.hasOwnProperty(skill)) {
                 formattedSkill = HTMLskills.replace("%data%", bio.skills[skill]);

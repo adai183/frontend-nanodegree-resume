@@ -2,6 +2,7 @@
     padding:0.5;
     margin:0;
     font-family: 'Lato', sans-serif;
+    font-size: 18px;
  }
 nav{
   background-color: #E2DA99;
@@ -10,7 +11,7 @@ nav{
  nav ul li {
     display: inline-block;
     list-style-type: none;
-    padding: 5% 10%;
+    padding: 5% 5%;
     color: #A33CCD;
 
     -webkit-transition: all 0.2s;
@@ -25,11 +26,7 @@ nav{
   overflow: auto;
 }
 
-#role {
-    color: white;
-    margin-left: 20px;
-    text-align: right;
-}
+
 
 .education-entry,
 .work-entry,
@@ -38,12 +35,6 @@ nav{
 }
 
 
-h1 {
-  font-size: 40px;
-  color: #2B2301;
-  line-height: 48px;
-  display: inline;
-}
 
 h2 {
   font-weight: bold;
@@ -62,7 +53,7 @@ h3 {
 
 h4 {
   font-weight: bold;
-  font-size: 14px;
+  font-size: 20px;
   color: #4a4a4a;
   line-height: 17px;
 }
@@ -94,7 +85,7 @@ h5 {
 }
 
 p {
-  font-size: 14px;
+  font-size: 16px;
   color: #333;
   line-height: 21px;
 }
@@ -106,17 +97,25 @@ a {
   display: block;
 }
 
-.welcome-message {
-  font-style: italic;
-  font-size: 18px;
-  color: #f3f3f3;
-  line-height: 28px;
+.welcome h2 {
+    font-style: italic;
+    font-size: 32px;
+    color: black;
+    padding-top: 80px;
+    text-align: left;
+
+
 }
 
 #skills-h3 {
+  font-size: 28px;
   text-align: left;
-  color: #2B2301;
-  display: none;
+  color: black;
+  display: block;
+}
+
+#skills li {
+  font-size: 26px;
 }
 
 
@@ -131,14 +130,7 @@ a {
   clear:both;
 }
 
-.dark-gray {
-  background-color: #4a4a4a;
-}
 
-/* TODO: Replace with image later */
-#header {
-  background-color: #5E9CA0;
-}
 
 .flex-box {
   display: -webkit-flex;
@@ -158,7 +150,10 @@ a {
   padding: 10px;
 }
 
-
+.flex-item  {
+  font-size: 20px;
+  padding: 10px; 0, 10px, 0;
+}
 
 .center-content {
   padding: 2.5% 5%;
@@ -169,13 +164,11 @@ ul {
 }
 
 .biopic {
-  float: left;
-  padding: 10px;
-  width: 200px;
-  display: none;
+  width: 100%;
+
 }
 
-img {
+#projects img {
   margin: 10px 10px 5px 0;;
 }
 
@@ -189,33 +182,6 @@ span {
 }
 
 
-
-/* Media queries to handle various device widths */
-
-@media only screen and (max-width: 1024px) {
-  #lets-connect {
-    margin-top: 5%;
-  }
-}
-
-@media only screen and (max-width:900px) {
-  .biopic {
-    width: 175px;
-  }
-}
-
-@media only screen and (max-width: 750px) {
-  #lets-connect {
-    margin-top: 10%;
-  }
-  .biopic {
-    width: 150px;
-  }
-  .welcome-message {
-    display: none;
-  }
-}
-
 #map {
   display: block;
   height: 100%;
@@ -228,9 +194,69 @@ span {
   padding-bottom: 5%;
 }
 
+.image {
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+
+h1 {
+   position: relative;
+   text-align: center;
+   top: -200px;
+   left: 0;
+   width: 100%;
+   height: auto
+}
+
+h1 span {
+   color: white;
+   font: bold 24px/45px Helvetica, Sans-Serif;
+   letter-spacing: -1px;
+   background: rgb(0, 0, 0); /* fallback color */
+   padding: 10px;
+   display: inline;
+}
+
+
+h1 span.spacer {
+   padding:0 5px;
+}
+
+#header {
+  margin-top: -130px;
+}
+
+
+#topContacts {
+  margin-top: 200px;
+  padding: 0;
+}
+
+/* Media queries to handle various device widths */
+
+@media only screen and (max-width: 1024px) {
+  #lets-connect {
+    margin-top: 5%;
+  }
+}
+
+
+
+@media only screen and (max-width: 750px) {
+  #lets-connect {
+    margin-top: 10%;
+  }
+
+  .welcome-message {
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 750px) {
-  #skills-h3,
-  .biopic {
+  #skills-h3 {
     display: block;
   }
+  h1 span {
+      font: bold 48px/90px Helvetica, Sans-Serif; ;
+
 }
